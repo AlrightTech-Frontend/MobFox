@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Segoe UI';
+    /* Give a name to your font */
+    src: url('../fonts/segoe-ui/Segoe\ UI.ttf') format('tff'),
+}
+
+body {
+    font-family: 'Segoe UI' !important;
+}
+
+/* ###########>Header start<############# */
+.head{
+    background-color: var(  --header-bg);
+  
+}
+.nav-list li a{
+    color: var(--h1-color);
+    font-size: var( --nav-color);
+    font-weight: 500;
+}
+.nav-button{
+    background: var(--button2-background-color);
+    color: var(--h1-color);
+    box-shadow: var( --box-box-shadow);
+}
+.nav-button:hover{
+    background: var(--button2-background-color); 
+}
+.nav-button1{
+   border: 1px solid var(--button2-background-color);
+   color: var(--button2-background-color);
+   box-shadow: var( --box-box-shadow);
+}
+.nav-button1:hover{
+    border: 1px solid var(--button2-background-color);
+    color: var(--button2-background-color);
+ }
+
+ /* .nav-link{
+    padding: 0px !important;
+ } */
+ /* ###########>Header end<############# */

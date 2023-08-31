@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Segoe UI";
+  /* Give a name to your font */
+  src: url("../fonts/segoe-ui/Segoe\ UI.ttf") format("tff");
+}
+
+body {
+  font-family: "Segoe UI" !important;
+}
+/*################> Footer Start <#############  */
+.foot {
+  background-image: url(../img/footer-img.png);
+  object-fit: cover;
+  background-size: cover;
+
+}
+.foot-row {
+  background: var(--header-bg);
+}
+.icons a i{
+transition: width 2s, height 2s;
+}
+.icons a i:hover{
+    width: 20px;
+    height: 20px;
+}
+.icons a img{
+    transition: transform 1.1s;
+    }
+.icons a img:hover{
+    width: 20px;
+    height: 20px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: var(--para3-color);
+}
+.list1 li a {
+  text-decoration: none;
+  color: var(--para3-color);
+}
+.col-sec p{
+    color: var(--para3-color);  
+}
+.list1 li i{
+    color: var(--para3-color); 
+}
+
+/*################> Footer End <#############  */
