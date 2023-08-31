@@ -17,6 +17,44 @@
     --para2-color: rgba(0, 0, 0, 0.72);
     --para3-color: rgba(0, 0, 0, 0.50);
     /* Replace with your desired color */
+
+
+
+    /* ###########>Header variable start<############# */
+    --header-bg:#fff6f4;
+    /* ###########>Header variable End <############# */
+
+
+
+     /* ###########>Footer variable start<############# */
+     --header-bg:#fff6f4;
+     /* ###########>Footer variable End <############# */
+ 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*################> Footer Start <#############  */
+.foot{
+    background-image: url('../img/243903\ 1.png');
+    object-fit: cover;
+    background-size: cover;
+}
+/*################> Footer End <#############  */
  
