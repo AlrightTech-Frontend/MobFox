@@ -1,15 +1,54 @@
+@font-face {
+    font-family: 'Segoe UI';
+    /* Give a name to your font */
+    src: url('../fonts/segoe-ui/Segoe\ UI.ttf') format('tff'),
+
+
+}
+
 .bgMainContainer {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.51) 0%, rgba(0, 0, 0, 0.51) 100%), url('../images/bgmaincon.png'), lightgray -26.834px -252.102px / 103.706% 259.529% no-repeat;
+    background: url('../img/bgmaincon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 body {
-    font-family: 'Segoe UI',
+    font-family: 'Segoe UI' !important;
 }
 
 .he1 {
     color: var(--heading1-color);
+    font-family: 'Segoe UI';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .he1 span {
-    color
+    color: var(--feedback-color)
+}
+
+.para1 {
+    color: var(--heading1-color);
+
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inputGroup {
+    width: 65%;
+}
+
+.btnFilter {
+    background: var(--fBtn);
+    border: none !important;
+}
+
+.searchIcon {
+    border: transparent !important;
 }
