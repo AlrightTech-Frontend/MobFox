@@ -57,7 +57,7 @@ body {
 
 
 .header-feedus {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(/assets/img/feed.png), lightgray 0px -170.162px / 100% 245.098% no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../img/feed.png), lightgray 0px -170.162px / 100% 245.098% no-repeat;
     height: 406px;
     background-size: cover;
     background-repeat: no-repeat;
