@@ -1,0 +1,104 @@
+:root {
+    --heading1-color: #FFF;
+    --heading-1-font-size: 40px;
+    --h1-color: #000;
+    --feedback-color: #F86F03;
+    --navbar-button-color: #525FE1;
+    ;
+    --andriod-para-font-size: 14px;
+    --h1-font-size: 32px;
+    --h2-font-size: 16px;
+    --para2-font-size: 15px;
+    --h3-font-size: 20px;
+    --h1-font-weight: 700;
+    --h2-font-weight: 600;
+    --para1-font-weight: 400;
+    --button1-background-color: #FFF6F4;
+    --button2-background-color: #525FE1;
+    --feedback-background-color: #F86F03;
+    --address-font-size: 28px;
+
+    --form-control-color: rgba(0, 0, 0, 0.30);
+    --form-control-border: 1px solid rgba(0, 0, 0, 0.50);
+    --font-awesome1-color: #525FE1;
+    /* paragrapg color */
+    --para1-color: rgba(0, 0, 0, 0.84);
+    --para2-color: rgba(0, 0, 0, 0.72);
+    --para3-color: rgba(0, 0, 0, 0.50);
+    /* paragrap end */
+
+    --box3-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.25);
+    --view-guide-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+    /* boxshadow */
+    --box-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    --box2-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25)
+        /* Replace with your desired color */
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    /* Give a name to your font */
+    src: url('../fonts/segoe-ui/Segoe\ UI.ttf') format('tff'),
+
+
+}
+
+body {
+    font-family: 'Segoe UI' !important;
+}
+
+.bg-privacy {
+
+    background-image: url(/assets/img/privacy\ back.png);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+.heading-privacy {
+    color: var(--h1-color);
+    font-size: var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+}
+
+.para-privacy {
+    color: var(--para2-color);
+    font-size: var(--h3-font-size);
+    font-weight: var(--para2-font-weight);
+}
+
+.heading-certified {
+    color: var(--h1-color);
+    font-size: var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+}
+
+.para1-certified {
+    color: var(--para1-color);
+    font-size: var(--h2-font-size);
+    font-weight: var(--para1-font-weight);
+}
+
+.andriod-heading {
+    color: var(--h1-color);
+    font-size: var(--h3-font-size);
+    font-weight: var(--h2-font-weight);
+}
+
+.btn-guide {
+    border-radius: 6px;
+    background: var(--navbar-button-color) !important;
+    color: var(--heading1-color) !important;
+    font-size: var(--andriod-para-font-size);
+    border-radius: 6px;
+    font-weight: var(--para1-font-weight);
+    box-shadow: var(--view-guide-box-shadow);
+}
+
+.para-mobile {
+    font-size: var(--para2-font-size);
+    font-weight: var(--para1-font-weight);
+    color: var(--para3-color);
+
+}
