@@ -10,6 +10,8 @@
     --h1-font-weight: 700;
     --h2-font-weight: 600;
     --h3-font-weight: 600;
+    --para-font-size: 20px;
+
     --button1-background-color: #FFF6F4;
     --button2-background-color: #525FE1;
     --feedback-background-color: #F86F03;
@@ -17,5 +19,6 @@
     --para1-color: rgba(0, 0, 0, 0.84);
     --para2-color: rgba(0, 0, 0, 0.72);
     --para3-color: rgba(0, 0, 0, 0.50);
+    --para4-colora: rgba(0, 0, 0, 0.55);
     /* Replace with your desired color */
 }
