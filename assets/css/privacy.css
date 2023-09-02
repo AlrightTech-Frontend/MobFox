@@ -102,3 +102,9 @@ body {
     color: var(--para3-color);
 
 }
+
+@media (max-width: 992px) {
+    .repairg {
+        width: 100%;
+    }
+}
