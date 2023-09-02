@@ -89,8 +89,14 @@
      --twitter-color: #1D9BF0;
      /* ###########>Footer variable End <############# */
  
- 
-
+     /* ###########>book now variable start<############# */
+     --book-color: rgba(0, 0, 0, 0.55);
+     --book-color1: rgba(0, 0, 0, 0.70);
+     --book-color2: rgba(0, 0, 0, 0.52);
+     --book-color3: #F3F1F1;
+     --book-color4: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+     --book-color5:rgba(0, 0, 0, 0.25);
+     /* ###########>book now variable End <############# */
 }
  
  
