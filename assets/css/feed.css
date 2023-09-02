@@ -6,6 +6,7 @@
     --navbar-button-color: #525FE1;
     --feed-para-color: rgba(0, 0, 0, 0.75);
     --andriod-para-font-size: 14px;
+    --snd-message-font-size: 22px;
     --h1-font-size: 32px;
     --h2-font-size: 16px;
     --para2-font-size: 15px;
@@ -71,6 +72,7 @@ body {
     color: var(--heading1-color);
     font-size: var(--heading-1-font-size);
 
+
 }
 
 .feedback-head {
@@ -78,6 +80,7 @@ body {
     font-size: var(--h1-font-size);
     font-weight: var(--h1-font-weight);
 }
+
 
 .form-feed {
     box-shadow: var(--box4-box-shadow);
@@ -90,17 +93,40 @@ body {
 }
 
 
+.feedback-head {
+    position: relative;
+
+    text-align: center;
+}
+
+.feedback-head::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: var(--feedback-background-color);
+
+
+
+}
+
+
+
 .btn-send {
     background: var(--navbar-button-color) !important;
     color: var(--heading1-color) !important;
-    font-size: var(--andriod-para-font-size);
-    display: flex;
-    padding: 23px 62px 22px 63px !important;
-    justify-content: center;
-    align-items: center;
+    /* font-size: var(--andriod-para-font-size); */
+    font-size: var(--snd-message-font-size) !important;
+    padding: 18px 63px !important;
+    text-align: center;
     font-weight: var(--para1-font-weight);
     box-shadow: var(--view-guide-box-shadow);
     border-radius: 23px !important;
+    white-space: nowrap;
 
 
 }
@@ -124,4 +150,32 @@ body {
     ;
     font-size: var(--h3-font-size);
     font-weight: var(--para1-font-weight);
+}
+
+@media (max-width:320px) {
+    .heading-feed-1 {
+        font-size: 28px !important;
+
+    }
+
+    .feedback-head {
+        font-size: 20px !important;
+    }
+
+    .feedback-head::before {
+
+        right: 23%;
+    }
+}
+
+@media (max-width:375px) {
+    .heading-feed-1 {
+        font-size: 34px;
+    }
+
+    .feedback-head {
+        font-size: 25px;
+    }
+
+
 }

@@ -68,3 +68,9 @@ body {
     background-color: var(--heading1-color);
     box-shadow: var(--box2-box-shadow);
 }
+
+@media (max-width:992px) {
+    .repairim {
+        width: 100%;
+    }
+}
