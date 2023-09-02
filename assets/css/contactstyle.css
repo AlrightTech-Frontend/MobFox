@@ -35,33 +35,35 @@ body {
 .social-icon {
     color: var(--font-awesome1-color);
     cursor: pointer;
-
+    font-size: 16px;
 }
 
 .media-icon {
     display: flex;
     gap: 31px;
     flex-direction: column;
+
 }
 
 .media-icon li {
     color: var(--para3-color);
     font-family: Segoe UI;
-    font-size: (--h2-font-size);
+    font-size: var(--h2-font-size) !important;
     font-weight: var(--para1-font-weight);
 
 }
 
-.form-control {
+.input-form {
+
     box-shadow: none !important;
     outline: none !important;
-    color: var(--form-control-color);
-    font-size: var(--h3-font-size);
-    font-weight: var(--para1-font-weight);
-    border: var(--form-control-border);
+    color: var(--form-control-color) !important;
+    font-size: var(--h3-font-size) !important;
+    font-weight: var(--para1-font-weight) !important;
+    border: 1px solid rgba(0, 0, 0, 0.10) !important;
 }
 
-.form-control:focus {
+.input-form:focus {
     border: 2px solid #000 !important;
 }
 
@@ -69,9 +71,14 @@ body {
     background-color: var(--button2-background-color) !important;
     width: 142px;
     height: 60px;
-    border: none;
-    outline: none;
-    box-shadow: var(--box3-box-shadow);
+    border: none !important;
+
     color: var(--heading1-color) !important;
-    font-size: var(--h3-font-size);
+    font-size: var(--h3-font-size) !important;
+}
+
+.form-button:hover {
+    cursor: pointer;
+    background-color: var(--feedback-color) !important;
+    transition: .2s;
 }
