@@ -4,7 +4,7 @@
 }
 
 :root {
-<<<<<<< HEAD
+ 
   --heading1-color: #fff;
   --h1-color: #000;
   --feedback-color: #f86f03;
@@ -24,7 +24,7 @@
   --para2-color: rgba(0, 0, 0, 0.72);
   --para3-color: rgba(0, 0, 0, 0.5);
   /* Replace with your desired color */
-=======
+ 
     --heading1-color: #FFF;
     --heading-1-font-size: 40px;
     --h1-color: #000;
@@ -65,7 +65,7 @@
     /* Replace with your desired color */
  
  
->>>>>>> f9f7aa4cb4f4a25b38d7c7fb351dff8cf7bba406
+ 
 
   /* ###########>Header variable start<############# */
   --header-bg: #fff6f4;
@@ -81,10 +81,9 @@
   --form-color: #575757;
   --form-color1: rgba(0, 0, 0, 0.37);
 
-<<<<<<< HEAD
+ 
   /* ###########>pay-form variable End <############# */
-}
-=======
+ 
      /* ###########>Footer variable start<############# */
      --footer-bg:#fdfdfd;
      --twitter-color: #1D9BF0;
@@ -95,4 +94,4 @@
 }
  
  
->>>>>>> f9f7aa4cb4f4a25b38d7c7fb351dff8cf7bba406
+ 
