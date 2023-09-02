@@ -84,7 +84,7 @@ body {
     font-size: var(--snd-message-font-size) !important;
     padding: 18px 63px !important;
     text-align: center;
-    font-weight: var(--para1-font-weight);
+    font-weight: var(--para1-font-weight) !important;
     border-radius: 23px !important;
     white-space: nowrap;
     border: none !important;
