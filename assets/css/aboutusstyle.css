@@ -17,7 +17,7 @@ body {
 
 
 .header-aboutus {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.51) 0%, rgba(0, 0, 0, 0.51) 100%), url(/assets/img/backgroundabout.png), lightgray -0.014px -190.732px / 100.013% 248.226% no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.51) 0%, rgba(0, 0, 0, 0.51) 100%), url(../img/backgroundabout.png), lightgray -0.014px -190.732px / 100.013% 248.226% no-repeat;
     height: 345px;
     background-size: cover;
     background-repeat: no-repeat;

@@ -30,7 +30,9 @@
     --h1-color: #000;
     --feedback-color: #F86F03;
     --navbar-button-color: #525FE1;
-    ;
+ 
+    --andriod-para-font-size: 14px;
+ 
     --h1-font-size: 32px;
     --h2-font-size: 16px;
     --para2-font-size: 15px;
@@ -45,6 +47,7 @@
     --address-font-size: 28px;
 
     --form-control-color: rgba(0, 0, 0, 0.30);
+    --form-control-border: 1px solid rgba(0, 0, 0, 0.50);
     --font-awesome1-color: #525FE1;
     /* paragrapg color */
     --para1-color: rgba(0, 0, 0, 0.84);
@@ -53,18 +56,18 @@
     /* paragrap end */
 
     --box3-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.25);
+    --view-guide-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
     /* boxshadow */
     --box-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
-    --box2-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25)
+    --box2-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25);
         /* Replace with your desired color */
+ 
  
     --fBtn: #FFA41B;
     --para1-color: rgba(0, 0, 0, 0.84);
     --para2-color: rgba(0, 0, 0, 0.72);
     --para3-color: rgba(0, 0, 0, 0.50);
     /* Replace with your desired color */
- 
- 
  
 
   /* ###########>Header variable start<############# */
@@ -98,6 +101,5 @@
      --book-color5:rgba(0, 0, 0, 0.25);
      /* ###########>book now variable End <############# */
 }
- 
  
  
