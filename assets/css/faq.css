@@ -23,7 +23,7 @@
 }
 .card{
     background: rgba(252, 252, 252, 0.85);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
     height: 100%;
 }
 .dot
@@ -43,10 +43,57 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 #editor
 {
-    height: 100vh;
+    height: 30vh;
 }
-@media screen and (max-width: 768px) {
+.post-button{
+    background-color: var(--button2-background-color);
+    color: white;
+    border-radius: 9px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+}
+.post-button:hover{
+    background-color: var(--button2-background-color);
+    color: white;
+}
+.explain-text p
+{
+    font-size: 20px;
+    color: #00000080 ;
+}
+.message img{
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+.question img
+{
+    width: 20px;
+    height: 20px;
+}
+.btn-comment button
+{
+    color: #00000080 !important;
+    border-radius: 10px;
+}
+.question h5
+{
+    margin-top: 10px;
+}
+.message
+{
+    margin-bottom: 120px !important;
+}
 
+.ql-toolbar.ql-snow .ql-picker-label {
+    display: none;
+}
+.ql-snow .ql-picker.ql-header {
+    width: 0px !important;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    
 }
 @media screen and (max-width: 400px) {
     .move-colum{
@@ -57,7 +104,6 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     .viewIcons{
         text-align: center !important;
         margin-top: 10px !important;
-
     }
     .mobile h3{
         font-size: 20;
@@ -65,6 +111,20 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
     .markhor-icon img {
         margin-top: 10px;
+    }
+    .message
+    {
+        margin-bottom: 20px !important;
+    }
+    .question h5
+    {
+        margin-top: 10px;
+        font: 13px !important;
+    }
+    .btn-comment button 
+    {
+        padding: 10px !important;
+        font-size: 12px;
     }
 }
 /* Faq */

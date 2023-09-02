@@ -32,7 +32,6 @@
 }
 .password img{
     width: 16px;
-    /* margin-left: 5px !important; */
     margin-top: -10px;
 }
 .customer{
@@ -118,6 +117,11 @@
     color: #00000080 !important;
   
 }
+
+.password button
+{
+    white-space: nowrap;
+}
 @media screen and (max-width:768px)
 {
     .uper-margin{
@@ -143,6 +147,12 @@
     .bgOrange h5 
     {
         margin-top: 3px !important;
+    }
+    
+    .password button
+    {
+        padding-left: 5px;
+        padding-right: 19px;
     }
 }
 /* login */
