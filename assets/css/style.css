@@ -5,83 +5,58 @@
 
 :root {
 
-  --heading1-color: #fff;
-  --h1-color: #000;
-  --feedback-color: #f86f03;
-  --navbar-button-color: #525fe1;
-  --box-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
-  --h1-font-size: 32px;
-  --h2-font-size: 16px;
-  --h3-font-size: 20px;
-  --h1-font-weight: 700;
-  --h2-font-weight: 600;
-  --h3-font-weight: 600;
-  --address-font-size: 28px;
-  --button1-background-color: #fff6f4;
-  --button2-background-color: #525fe1;
-  --feedback-background-color: #f86f03;
-  --fBtn: #ffa41b;
-  --para1-color: rgba(0, 0, 0, 0.84);
-  --para2-color: rgba(0, 0, 0, 0.72);
-  --para3-color: rgba(0, 0, 0, 0.5);
-  /* Replace with your desired color */
-
-  --heading1-color: #FFF;
-  --heading-1-font-size: 40px;
-  --h1-color: #000;
-  --feedback-color: #F86F03;
-  --navbar-button-color: #525FE1;
-
-  --andriod-para-font-size: 14px;
-  --snd-message-font-size: 22px;
+  /* font size */
 
   --h1-font-size: 32px;
   --h2-font-size: 16px;
   --para2-font-size: 15px;
   --h3-font-size: 20px;
+  --andriod-para-font-size: 14px;
+  --snd-message-font-size: 22px;
+  --heading-1-font-size: 40px;
+  --address-font-size: 28px;
+  --address-font-size: 28px;
+  /* font size */
+
+  /* font weight */
+  --para1-font-weight: 400;
   --h1-font-weight: 700;
   --h2-font-weight: 600;
-  --para1-font-weight: 400;
-  --button1-background-color: #FFF6F4;
-  --button2-background-color: #525FE1;
-  --feedback-background-color: #F86F03;
+  --h3-font-weight: 600;
 
-  --address-font-size: 28px;
-
+  /* color */
+  --heading1-color: #fff;
+  --h1-color: #000;
+  --feedback-color: #f86f03;
+  --feedback-background-color: #f86f03;
   --form-control-color: rgba(0, 0, 0, 0.30);
   --form-control-border: 1px solid rgba(0, 0, 0, 0.50);
   --font-awesome1-color: #525FE1;
-  /* paragrapg color */
   --para1-color: rgba(0, 0, 0, 0.84);
   --para2-color: rgba(0, 0, 0, 0.72);
   --para3-color: rgba(0, 0, 0, 0.50);
-  /* paragrap end */
-  --box4-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-  --box3-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.25);
+  --navbar-button-color: #525fe1;
+  --button1-background-color: #fff6f4;
+  --button2-background-color: #525fe1;
+  --footer-bg: rgba(255, 255, 255, 0.99);
+  /*  color  end */
 
-  --view-guide-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+
   /* boxshadow */
   --box-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
   --box2-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25);
+  --box4-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  --box3-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.25);
+  --view-guide-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
   /* Replace with your desired color */
-
 
   --fBtn: #FFA41B;
-  --para1-color: rgba(0, 0, 0, 0.84);
-  --para2-color: rgba(0, 0, 0, 0.72);
-  --para3-color: rgba(0, 0, 0, 0.50);
   /* Replace with your desired color */
-
 
   /* ###########>Header variable start<############# */
   --header-bg: #fff6f4;
   --nav-color: 18px;
   /* ###########>Header variable End <############# */
-
-  /* ###########>Footer variable start<############# */
-  --footer-bg: #fdfdfd;
-  --twitter-color: #1d9bf0;
-  /* ###########>Footer variable End <############# */
 
   /* ###########>pay-form variable start<############# */
   --form-color: #575757;
@@ -89,11 +64,6 @@
 
 
   /* ###########>pay-form variable End <############# */
-
-  /* ###########>Footer variable start<############# */
-  --footer-bg: #fdfdfd;
-  --twitter-color: #1D9BF0;
-  /* ###########>Footer variable End <############# */
 
 
 
