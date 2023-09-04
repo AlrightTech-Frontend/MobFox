@@ -361,6 +361,11 @@ body {
 
 }
 
+.servicesSectionRow h1,
+p {
+    margin-bottom: 3px;
+}
+
 
 @media(max-width:992px) {
     .borderCol::after {
@@ -369,5 +374,9 @@ body {
 
     .inputGroup {
         width: 100%;
+    }
+
+    .para5 {
+        text-align: start;
     }
 }
