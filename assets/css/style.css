@@ -124,7 +124,21 @@
     --para1-color: rgba(0, 0, 0, 0.84);
     --para2-color: rgba(0, 0, 0, 0.72);
     --para3-color: rgba(0, 0, 0, 0.50);
+<<<<<<< HEAD
+    --para4-color:rgba(0, 0, 0, 0.67);
+    --border-color:rgba(0, 0, 0, 0.52);
+    --border:rgba(0, 0, 0, 0.12);
+    --line-color:rgba(248, 111, 3, 0.51);
+    --para-border:rgba(0, 0, 0, 0.42);
+    --backgroundhover:#f1f1f1;
+    --hover-color:#666;
+    --input-color:rgba(0, 0, 0, 0.56);
+
+    
+
+=======
     --para4-colora: rgba(0, 0, 0, 0.55);
+>>>>>>> main
     /* Replace with your desired color */
  
 
