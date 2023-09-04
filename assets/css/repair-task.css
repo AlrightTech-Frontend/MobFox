@@ -62,7 +62,7 @@ font-size: 20px;
 font-weight: 600;
 }
 .repair-task-button:hover{
-    background: var(--button2-background-color);
+    background: var( --feedback-color);
     color: var(--heading1-color);
-    background-color: var(--button2-background-color);
+    background-color: var( --feedback-color: #f86f03;);
 }

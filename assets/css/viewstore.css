@@ -161,7 +161,7 @@ background: var(--feedback-color);
 }
 .leftLst:hover{
     background-color: var(--backgroundhover);
-    color:  --hover-color;
+    color:black;
     }
 
 .rightLst{
@@ -169,8 +169,9 @@ background: var(--feedback-color);
 }
 .rightLst:hover{
     background-color:var(--backgroundhover);
-    color:  --hover-color;
+    color: black;
 }
+
 .view-store-swiper-btn{
     background-color: var(--feedback-color);
 }
