@@ -125,7 +125,51 @@ font-weight: 600;
 .imgHeight{
     height: 275px !important;
 }
-
+.filterBtn{
+    text-decoration:  none !important;
+   
+    font-size:var( --h3-font-size) !important; 
+    font-size: 20px !important;
+    color: #000 !important;
+font-family: Segoe UI !important;
+font-size: 20px !important;
+font-style: normal;
+font-weight: 600;
+}
+.clearBtn{
+    text-decoration: none !important;
+    font-size: var( --h2-font-size) !important;
+    font-style: normal;
+font-weight: 600;
+}
+.catBtn{
+  font-family: var(--inputFamily) !important;
+  font-size:11px !important;
+}
+.bodyClr{
+    background-color: var( --mainContainerClr) !important ;
+}
+.smartBtn{
+font-size: var(--appleTxt) !important;
+color: var( --para1-color) !important;
+/* color: #000  !important; */
+font-weight: 600;
+}
+.iconBtn{
+    padding-left: 95px !important;
+}
+/* .catIcon{
+    padding-left: 45px !important;
+} */
+/* .catBtn{
+    padding-right: 10px !important;
+} */
+.priceIcon{
+    padding-left: 90px !important;
+}
+.smartIcon{
+    padding-left: 25px !important;
+}
 
 
 
