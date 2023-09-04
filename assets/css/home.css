@@ -151,7 +151,7 @@ body {
 .borderCol::after {
     position: absolute;
     content: "";
-    height: 115px;
+    height: 100px;
     background-color: rgba(0, 0, 0, 0.33);
     top: -25px;
     width: 1px;
