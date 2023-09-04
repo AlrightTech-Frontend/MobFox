@@ -50,6 +50,7 @@
     background-size: cover;
 
 }
+
 body {
     font-family: 'Segoe UI' !important;
 }
@@ -102,7 +103,7 @@ body {
 }
 
 .inputGroup {
-    width: 65%;
+    width: 52%;
 }
 
 .btnFilter {
@@ -112,7 +113,7 @@ body {
 
 .searchIcon {
     border: transparent !important;
-    background-color: #fff !importants;
+    background-color: #fff !important;
 }
 
 .sInp {
@@ -123,9 +124,7 @@ body {
     font-size: 16px;
 }
 
-.want-text p {
-    font-size: 12px;
-}
+
 
 .para2 {
     color: rgba(0, 0, 0, 0.55);
@@ -152,9 +151,9 @@ body {
 .borderCol::after {
     position: absolute;
     content: "";
-    height: 82px;
+    height: 115px;
     background-color: rgba(0, 0, 0, 0.33);
-    top: -10px;
+    top: -25px;
     width: 1px;
     right: 2px;
 
@@ -344,6 +343,21 @@ body {
     font-size: var(--para2-font-size);
     font-weight: var(--para1-font-weight);
     color: var(--para3-color);
+
+}
+
+.faqLink {
+    text-decoration: none;
+}
+
+.faqLink:hover .para-mobile {
+    border-bottom: 1px solid #3b3b3b;
+    color: #000;
+}
+
+.cItem {
+    background: #FDFDFD !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) !important;
 
 }
 
