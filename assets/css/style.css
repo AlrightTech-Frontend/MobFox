@@ -100,6 +100,14 @@
      --book-color4: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
      --book-color5:rgba(0, 0, 0, 0.25);
      /* ###########>book now variable End <############# */
+
+       /* ###########>book now submit variable start<############# */
+       --book-color6:rgba(0, 0, 0, 0.41);
+       --book-color7:#FCFCFC;
+       --book-color8:rgba(0, 0, 0, 0.53);
+       --book-color9:rgba(0, 0, 0, 0.18);
+
+       /* ###########>book now submit variable End <############# */
 }
  
  
