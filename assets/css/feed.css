@@ -32,6 +32,7 @@ body {
 .heading-feed-1 {
     color: var(--heading1-color);
     font-size: var(--heading-1-font-size);
+    text-align: center;
 
 
 }
@@ -118,7 +119,8 @@ body {
 .fa-star:hover {
     cursor: pointer;
     color: var(--feedback-color);
-    transition: .2s;
+
+    transform: scale(1.5);
 }
 
 .feed-para2 {
@@ -135,13 +137,9 @@ body {
 
 /* break points */
 @media (max-width:320px) {
-    .heading-feed-1 {
-        font-size: 28px !important;
-
-    }
 
     .feedback-head {
-        font-size: 20px !important;
+        font-size: 23px !important;
     }
 
 
