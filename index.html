@@ -21,15 +21,102 @@
   </head>
 
   <body>
+    <!-- header -->
+    <header class="head">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-3" href="./index.html">
+            <img src="assets/img/MobFix.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 nav-list p-4 navbarhover">
+              <li class="nav-item itemhover">
+                <a class="nav-link" aria-current="page" href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item itemhover">
+                <a class="nav-link" href="./aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item itemhover">
+                <a class="nav-link" href="./getPhone.html">Get a new phone</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Fix your stuff
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item itemhover">
+                <a href="./Service.html" class="nav-link" aria-disabled="true"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item itemhover">
+                <a href="./Faq.html" class="nav-link" aria-disabled="true"
+                  >FAQ</a
+                >
+              </li>
+              <li class="nav-item itemhover">
+                <a href="./contactus.html" class="nav-link" aria-disabled="true"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a href="./login.html" class="btn nav-button px-3" type="submit"
+                >Log In</a
+              >
+              <a
+                href="./Signup.html"
+                class="btn nav-button1 mx-3 px-3"
+                type="submit"
+              >
+                Register
+              </a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
     <!-- banner sectionm -->
-    <div class="container-fluid bgMainContainer p-2 p-md-5">
-      <h1 class="he1">When Phones Break,<span> We Make Them Wake.</span></h1>
-      <p class="para1">
+    <div class="container-fluid bgMainContainer p-3 p-md-5">
+      <h1 class="he1 mt-5">
+        When Phones Break,<span> We Make Them Wake.</span>
+      </h1>
+      <p class="para1d">
         Are you looking for phone or any other device repair? We carry out large
         number of mobile <br />
         repairs every month and help you fix your device as well.
       </p>
-      <div class="my-2 inputGroup">
+      <div class="my-5 inputGroup">
         <div class="input-group">
           <input
             type="text"
@@ -37,7 +124,7 @@
             aria-label="Dollar amount (with dot and two decimal places)"
             placeholder="Search City or Zip"
           />
-          <span class="input-group-text searchIcon"
+          <span class="input-group-text searchIcn"
             ><img
               src="./assets/img/icons/search.png"
               width="60px"
@@ -110,11 +197,11 @@
     <!-- banner section end -->
     <!-- bann -->
     <div class="container-fluid py-2 shadowCon">
-      <div class="row px-5">
-        <div class="col-md-4 borderCol">
+      <div class="row p-0 px-md-5 py-2">
+        <div class="col-md-4 borderCol my-2">
           <div class="d-flex justify-content-between">
             <div>
-              <p class="para2">30 DAYS WARRANTY</p>
+              <p class="para2d">30 DAYS WARRANTY</p>
               <p class="para3">Guaranteed Service</p>
             </div>
             <div>
@@ -127,10 +214,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 borderCol">
+        <div class="col-md-4 borderCol my-2">
           <div class="d-flex justify-content-between">
             <div>
-              <p class="para2">EXPERT STAFF</p>
+              <p class="para2d">EXPERT STAFF</p>
               <p class="para3">Available Anytime</p>
             </div>
             <div>
@@ -143,10 +230,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 my-2">
           <div class="d-flex justify-content-between">
             <div>
-              <p class="para2">WE ARE FAST</p>
+              <p class="para2d">WE ARE FAST</p>
               <p class="para3">Qualified Workers</p>
             </div>
             <div>
@@ -163,13 +250,13 @@
     </div>
 
     <div class="container mt-5">
-      <div class="row my-3">
+      <div class="row my-5">
         <div class="col-md-6">
           <img src="./assets/img/img 3.png" class="img-fluid" alt="" />
         </div>
-
-        <div class="col-md-6 want-text mt-3">
-          <h5>Do you want to buy a mobile phone online?</h5>
+        <div class="col-md-1"></div>
+        <div class="col-md-5 mt-3">
+          <h5 class="fw-bold">Do you want to buy a mobile phone online?</h5>
           <p class="para5 text-start">
             Lorem ipsum dolor sit amet consectetur. In et senectus rhoncus in
             sed. Sit viverra malesuada suspendisse amet aenean et ac pretium.
@@ -179,12 +266,14 @@
             pretium. Tristique donec massa ac nec et quis. Et viverra arcu id
             porttitor.
           </p>
-          <button class="btn btn-primary" type="submit">Get a New Phone</button>
+          <button class="btn btnP px-4 my-2" type="submit">
+            Get a New Phone
+          </button>
         </div>
       </div>
-      <div class="row my-3">
+      <div class="row my-5">
         <div class="col-md-12 my-5">
-          <h1 class="text-center my-3">Services</h1>
+          <h1 class="text-center he2 my-3">Services</h1>
           <p class="para5">
             Lorem ipsum dolor sit amet consectetur. In et senectus rhoncus in
             sed. Sit viverra malesuada suspendisse amet aenean et ac pretium.
@@ -203,44 +292,44 @@
         </div>
       </div>
 
-      <div class="row my-3">
-        <div class="col-md-4 my-2">
-          <div class="my-3 ps-5">
+      <div class="row my-5 servicesSectionRow">
+        <div class="col-md-4 my-4">
+          <div class="my-5 ps-0 ps-md-5">
             <p class="para8">Convenience and Efficiency</p>
             <p class="para7">
               Tristique donec massa ac nec et quis. Et viverra .
             </p>
           </div>
-          <div class="my-3">
+          <div class="my-5">
             <p class="para8">Trust and Security</p>
             <p class="para7">
               Tristique donec massa ac nec et quis. Et viverra .
             </p>
           </div>
-          <div class="my-3 ps-5">
+          <div class="my-5 ps-0 ps-md-5">
             <p class="para8">Time and Effort Savings</p>
             <p class="para7">
               Tristique donec massa ac nec et quis. Et viverra .
             </p>
           </div>
         </div>
-        <div class="col-md-4 my-2">
+        <div class="col-md-4 my-4">
           <img class="img-fluid" src="./assets/img/world.png" alt="" />
         </div>
-        <div class="col-md-4 my-2">
-          <div class="my-3">
+        <div class="col-md-4 my-4">
+          <div class="my-5">
             <p class="para8">Wide Range of Repair Services</p>
             <p class="para7">
               Tristique donec massa ac nec et quis. Et viverra .
             </p>
           </div>
-          <div class="my-3 ps-5">
+          <div class="my-5 ps-0 ps-md-5">
             <p class="para8">ompetitive Pricing</p>
             <p class="para7">
               Tristique donec massa ac nec et quis. Et viverra .
             </p>
           </div>
-          <div class="my-3">
+          <div class="my-5">
             <p class="para8">Quality Assurance</p>
             <p class="para7">
               Tristique donec massa ac nec et quis. Et viverra .
@@ -248,12 +337,12 @@
           </div>
         </div>
       </div>
-      <div class="row my-3">
-        <div class="col-6">
+      <div class="row my-5">
+        <div class="col-md-6">
           <img src="./assets/img/aboutU.png" class="img-fluid" alt="" />
         </div>
-
-        <div class="col-md-6 want-text mt-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 want-text mt-3">
           <h1 class="he2">About Us</h1>
           <p class="paran5">
             Lorem ipsum dolor sit amet consectetur. In et senectus rhoncus in
@@ -270,11 +359,11 @@
             pretium. Tristique donec massa ac nec et quis. Et viverra arcu id
             porttitor.
           </p>
-          <button class="btn btn-primary" type="submit">Read more</button>
+          <button class="btn btnP px-4 my-2" type="submit">Read more</button>
         </div>
       </div>
-      <div class="row my-3">
-        <div class="col-6">
+      <div class="row my-5">
+        <div class="col-md-6">
           <h1 class="want">We Want Your</h1>
           <span class="feedback">FEEDBACK</span>
           <p class="loremm">
@@ -284,15 +373,16 @@
             porttitor.Lorem ipsum dolor sit amet consectetur. In et senectus
             rhoncus in sed. Sit
           </p>
-          <button class="btn btn-primary" type="submit">Read more</button>
+          <button class="btn btnP px-4 my-2" type="submit">Read more</button>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
           <img class="img-fluid" src="./assets/img/feback.png" alt="" />
         </div>
       </div>
-      <div class="row my-3 rowBg py-3">
+      <div class="row my-5 rowBg py-3 px-1 px-md-5">
         <h1 class="he1 text-center">How it works at MobFix Service Center?</h1>
-        <p class="para1 text-center">
+        <p class="para1d text-center">
           Our aim is to offer outstanding services straight to your home or to
           your office to conduct repair works or troubleshoot your smartphones.
           For us, the repair work is not just about finding the fault and fixing
@@ -305,7 +395,7 @@
           >
             <img class="sImg m-auto" src="./assets/img/icons/G1.png" alt="" />
             <p class="para9 text-center">Book Your Repair</p>
-            <p class="para1 text-center">
+            <p class="para1d text-center">
               View prices upfront and book appointment online or on call.
             </p>
           </div>
@@ -316,7 +406,7 @@
           >
             <img class="sImg m-auto" src="./assets/img/icons/G2.png" alt="" />
             <p class="para9 text-center">Visit & Repair</p>
-            <p class="para1 text-center">
+            <p class="para1d text-center">
               Relax! Our expert will fix the device at your comfort zone.
             </p>
           </div>
@@ -327,7 +417,7 @@
           >
             <img class="sImg m-auto" src="./assets/img/icons/G3.png" alt="" />
             <p class="para9 text-center">Receive & Pay</p>
-            <p class="para1 text-center">
+            <p class="para1d text-center">
               Check the device & pay.Yes! You get up to 60 days to check your
               device & claim warranty*.
             </p>
@@ -356,13 +446,13 @@
       <div class="row">
         <div class="col-md-4">
           <img
-            src="/assets/img/faq imag.png"
+            src="./assets/img/faq imag.png"
             alt="FAQ Image"
             class="img-fluid h-100 w-100"
           />
         </div>
 
-        <div class="col-md-4 mt-lg-5 mt-3">
+        <div class="col-md-4 mt-lg-5 mt-3 px-md-0">
           <h1 class="andriod-heading">
             How to Change Broken Buttons on your Andriod Mobile
           </h1>
@@ -370,21 +460,29 @@
             Are your Android Mobile buttons not responding? Learn how to fix
             this issue with our comprehensive guide.
           </p>
-          <a href="#" class="btn btn-guide">View The Guide</a>
+          <a href="#" class="btn btnP my-2">View The Guide</a>
         </div>
-        <div class="col-md-4 mt-lg-5 mt-3">
-          <p class="para-mobile">
-            How to Change Broken Buttons on your Android Mobile
-          </p>
-          <p class="para-mobile">
-            How to Change Broken Buttons on your Android Mobile
-          </p>
-          <p class="para-mobile">
-            How to Change Broken Buttons on your Android Mobile
-          </p>
-          <p class="para-mobile">
-            How to Change Broken Buttons on your Android Mobile
-          </p>
+        <div class="col-md-4 mt-lg-5 mt-3 px-md-0">
+          <a href="#" class="faqLink">
+            <p class="para-mobile">
+              How to Change Broken Buttons on your Android Mobile
+            </p></a
+          >
+          <a href="#" class="faqLink">
+            <p class="para-mobile">
+              How to Change Broken Buttons on your Android Mobile
+            </p></a
+          >
+          <a href="#" class="faqLink">
+            <p class="para-mobile">
+              How to Change Broken Buttons on your Android Mobile
+            </p>
+          </a>
+          <a href="#" class="faqLink">
+            <p class="para-mobile">
+              How to Change Broken Buttons on your Android Mobile
+            </p></a
+          >
         </div>
       </div>
     </div>
@@ -426,7 +524,7 @@
         <h1 class="he2 my-2">Testimonials</h1>
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner px-5">
-            <div class="carousel-item active">
+            <div class="carousel-item cItem active">
               <p class="para11">JOSEPH JIMENEZ</p>
               <p class="para12">OSEPH JIMENEZ@gmail.com</p>
               <div class="stars d-flex justify-content-center">
@@ -443,7 +541,7 @@
                 the great explorer idea to be on the top of the mobile industry.
               </p>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item cItem">
               <p class="para11">JOSEPH JIMENEZ</p>
               <p class="para12">OSEPH JIMENEZ@gmail.com</p>
               <div class="stars d-flex justify-content-center">
@@ -460,7 +558,7 @@
                 the great explorer idea to be on the top of the mobile industry.
               </p>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item cItem">
               <p class="para11">JOSEPH JIMENEZ</p>
               <p class="para12">OSEPH JIMENEZ@gmail.com</p>
               <div class="stars d-flex justify-content-center">
@@ -500,6 +598,77 @@
       </div>
       <!-- carousel end -->
     </div>
+    <!----#############>footer Start<###############----->
+    <footer class="foot">
+      <div class="container pt-5 pb-5">
+        <div class="row foot-row pt-5 pb-5">
+          <div class="col-lg-5">
+            <div class="col-sec mx-lg-5">
+              <img src="assets/img/MobFix.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur. In et senectus rhoncus
+                in sed. Sit viverra malesuada suspendisse amet aenean et ac
+                pretium. Tristique donec massa ac nec et quis. Et viverra arcu
+                id porttitor.Lorem ipsum dolor sit amet consectetur. In et
+                senectus rhoncus in sed. Sit
+              </p>
+            </div>
+            <div class="mx-lg-5 icons">
+              <a href=""
+                ><img src="assets/img/icons/facebook.png" alt="" class="icon1"
+              /></a>
+              <a href=""
+                ><img
+                  src="assets/img/icons/twitter.png"
+                  alt=""
+                  class="mx-2 icon2"
+              /></a>
+              <a href=""
+                ><img
+                  src="assets/img/icons/insta.png"
+                  alt=""
+                  class="mx-2 icon3"
+              /></a>
+              <a href=""
+                ><img
+                  src="assets/img/icons/linkedin.png"
+                  alt=""
+                  class="mx-2 icon4"
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="mt-4">Navigation</h5>
+            <ul class="list-unstyled list">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./aboutus.html">About Us</a></li>
+              <li><a href="./getPhone.html">Get a new phone</a></li>
+              <li><a href="#">Fix Your Stuff</a></li>
+              <li><a href="./Service.html">Services</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 pe-4">
+            <h5 class="mt-4">Contact Us</h5>
+            <ul class="list-unstyled list1 mt-4">
+              <li>
+                <i class="fa-solid fa-phone"></i
+                ><a href="" class="mx-2">1-888-777-55555</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i
+                ><a href="" class="mx-2">phone-repair@example.com</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i
+                ><a href="" class="mx-2"
+                  >131 Lonsdale St, Melbourne VIC 3000, Australia</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
@@ -507,7 +676,3 @@
     ></script>
   </body>
 </html>
-
-
-
-

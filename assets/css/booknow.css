@@ -7,11 +7,12 @@ body {
   font-family: "Segoe UI" !important;
 }
 .booknow-img {
-  background-image: url(../img/booknow.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../img/booknow.png), lightgray 0px -170.162px / 100% 245.098% no-repeat;
   object-fit: cover;
   background-size: cover;
   width: 100%;
   height: 60vh;
+  background-repeat: no-repeat; 
 }
 .booknow-icon {
 }
