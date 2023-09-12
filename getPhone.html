@@ -1,10 +1,109 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Get Phone</title>
+ 
+    <link rel="stylesheet" href="./assets/css/getphone.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- header start -->
+    <header class="head">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-3" href="./index.html">
+            <img src="assets/img/MobFix.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 nav-list p-4 navbarhover">
+              <li class="nav-item itemhover">
+                <a class="nav-link" aria-current="page" href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item itemhover">
+                <a class="nav-link" href="./aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item itemhover">
+                <a class="nav-link" href="./getPhone.html">Get a new phone</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Fix your stuff
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item itemhover">
+                <a href="./Service.html" class="nav-link" aria-disabled="true"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item itemhover">
+                <a href="./Faq.html" class="nav-link" aria-disabled="true"
+                  >FAQ</a
+                >
+              </li>
+              <li class="nav-item itemhover">
+                <a href="./contactus.html" class="nav-link" aria-disabled="true"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a href="./login.html" class="btn nav-button px-3" type="submit"
+                >Log In</a
+              >
+              <a
+                href="./Signup.html"
+                class="btn nav-button1 mx-3 px-3"
+                type="submit"
+              >
+                Register
+              </a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+    <div class="container-fluid mobBanner">
+      <h2 class="text-white backgroundcontainer">Get a New Phone</h2>
+ 
     <link rel="stylesheet" href="./assets/css/getphone.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,6 +118,7 @@
   <div class=" mobBanner">
     <div class="backgroundcontainer">
         <h2 class="text-white ">Get a New Phone</h2>
+ 
     </div>
 </div>
 
@@ -28,6 +128,36 @@
     <div class="container-fluid px-md-5">
       <!-- search bar portion start  -->
       <div class="row justify-content-evenly mt-5">
+ 
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control inputOne"
+              aria-label="Dollar amount (with dot and two decimal places)"
+              placeholder="What Are You Looking For?"
+            />
+            <span class="input-group-text searchIcon"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                viewBox="0 0 83 55"
+                fill="none"
+              >
+                <path
+                  d="M46.8154 32.4517C48.4493 30.2221 49.1812 27.4577 48.8645 24.7117C48.5478 21.9657 47.2059 19.4405 45.1073 17.6413C43.0087 15.8421 40.3082 14.9017 37.546 15.0081C34.7838 15.1146 32.1637 16.26 30.2098 18.2153C28.2559 20.1706 27.1123 22.7916 27.0078 25.5539C26.9034 28.3161 27.8458 31.016 29.6464 33.1133C31.4471 35.2106 33.9732 36.5506 36.7195 36.8654C39.4658 37.1801 42.2296 36.4463 44.458 34.8108H44.4564C44.507 34.8782 44.561 34.9424 44.6217 35.0048L51.1184 41.5014C51.4348 41.8181 51.864 41.996 52.3116 41.9962C52.7592 41.9964 53.1886 41.8187 53.5052 41.5023C53.8219 41.1859 53.9998 40.7566 54 40.309C54.0002 39.8614 53.8225 39.432 53.5061 39.1154L47.0095 32.6188C46.9491 32.5577 46.8842 32.503 46.8154 32.4517ZM47.2508 25.9652C47.2508 27.184 47.0107 28.3908 46.5443 29.5169C46.0779 30.6429 45.3943 31.666 44.5324 32.5278C43.6706 33.3896 42.6475 34.0732 41.5215 34.5396C40.3955 35.0061 39.1886 35.2461 37.9699 35.2461C36.7511 35.2461 35.5442 35.0061 34.4182 34.5396C33.2922 34.0732 32.2691 33.3896 31.4073 32.5278C30.5455 31.666 29.8618 30.6429 29.3954 29.5169C28.929 28.3908 28.689 27.184 28.689 25.9652C28.689 23.5038 29.6668 21.1431 31.4073 19.4026C33.1478 17.6621 35.5084 16.6843 37.9699 16.6843C40.4313 16.6843 42.7919 17.6621 44.5324 19.4026C46.2729 21.1431 47.2508 23.5038 47.2508 25.9652Z"
+                  fill="black"
+                  fill-opacity="0.55"
+                />
+              </svg>
+            </span>
+            <!-- <span class="input-group-text">0.00</span> -->
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+ 
           <div class="col-md-3"></div>
           <div class="col-md-6">
               <div class="input-group">
@@ -40,64 +170,351 @@
                 </div>
           </div>
           <div class="col-md-3 "></div>
+ 
       </div>
       <!-- search bar portion end -->
 
-      
       <!-- circle cards start  -->
       <div class="d-flex justify-content-evenly mt-2 p-5 mobDiv">
-          <div class="mobCard mx-sm-2 mx-2">
-              <div class="" >
-                  <img src="./assets/images/iphonepic" class="card-img-top imgBorder " alt="...">
-                    <p class="appleTxt text-center mt-1">Apple Iphones</p>
-                </div>
+        <div class="mobCard mx-sm-2 mx-2">
+          <div class="">
+            <img
+              src="./assets/images/iphonepic"
+              class="card-img-top imgBorder"
+              alt="..."
+            />
+            <p class="appleTxt text-center mt-1">Apple Iphones</p>
           </div>
-          <div class="mobCard mx-sm-2 mx-2">
-              <div class="" >
-                  <img src="./assets/images/Nokiaone.jpg" class="card-img-top imgBorder" alt="...">
-                    <p class="appleTxt text-center mt-1">Nokia Mobiles</p>
-                </div>
+        </div>
+        <div class="mobCard mx-sm-2 mx-2">
+          <div class="">
+            <img
+              src="./assets/images/Nokiaone.jpg"
+              class="card-img-top imgBorder"
+              alt="..."
+            />
+            <p class="appleTxt text-center mt-1">Nokia Mobiles</p>
           </div>
-          <div class="mobCard mx-sm-2 mx-2">
-              <div class="" >
-                  <img src="./assets/images/vivo" class="card-img-top imgBorder" alt="...">
-                    <p class="appleTxt text-center mt-1">Vivo Mobiles</p>
-                </div>
+        </div>
+        <div class="mobCard mx-sm-2 mx-2">
+          <div class="">
+            <img
+              src="./assets/images/vivo"
+              class="card-img-top imgBorder"
+              alt="..."
+            />
+            <p class="appleTxt text-center mt-1">Vivo Mobiles</p>
           </div>
-          <div class="mobCard mx-sm-2 mx-2">
-              <div class="" >
-                  <img src="./assets/images/oppo" class="card-img-top imgBorder" alt="...">
-                    <p class="appleTxt text-center mt-1">Oppo Mobiles</p>
-                </div>
+        </div>
+        <div class="mobCard mx-sm-2 mx-2">
+          <div class="">
+            <img
+              src="./assets/images/oppo"
+              class="card-img-top imgBorder"
+              alt="..."
+            />
+            <p class="appleTxt text-center mt-1">Oppo Mobiles</p>
           </div>
-          <div class="mobCard mx-sm-2 mx-2">
-              <div class="" >
-                  <img src="./assets/images/infinix" class="card-img-top imgBorder" alt="...">
-                    <p class="appleTxt text-center mt-1">Infinix Mobiles</p>
-                </div>
+        </div>
+        <div class="mobCard mx-sm-2 mx-2">
+          <div class="">
+            <img
+              src="./assets/images/infinix"
+              class="card-img-top imgBorder"
+              alt="..."
+            />
+            <p class="appleTxt text-center mt-1">Infinix Mobiles</p>
           </div>
-          <div class="mobCard mx-sm-2 mx-2">
-              <div class="" >
-                  <img src="./assets/images/samsung" class="card-img-top imgBorder" alt="...">
-                    <p class="appleTxt text-center mt-1">Samsung Mobiles</p>
-                </div>
+        </div>
+        <div class="mobCard mx-sm-2 mx-2">
+          <div class="">
+            <img
+              src="./assets/images/samsung"
+              class="card-img-top imgBorder"
+              alt="..."
+            />
+            <p class="appleTxt text-center mt-1">Samsung Mobiles</p>
           </div>
-          <div class="mobCard mx-sm-2 mx-2">
-              <div class="" >
-                  <img src="./assets/images/lenevo.png" class="card-img-top imgBorder" alt="...">
-                    <p class="appleTxt text-center mt-1">Lenovo Mobiles</p>
-                </div>
+        </div>
+        <div class="mobCard mx-sm-2 mx-2">
+          <div class="">
+            <img
+              src="./assets/images/lenevo.png"
+              class="card-img-top imgBorder"
+              alt="..."
+            />
+            <p class="appleTxt text-center mt-1">Lenovo Mobiles</p>
           </div>
-          <div class="mobCard mx-sm-2 mx-2">
-              <div class="" >
-                  <img src="./assets/images/huawei.jpg" class="card-img-top imgBorder" alt="...">
-                    <p class="appleTxt text-center mt-1">Huawei Iphones</p>
-                </div>
+        </div>
+        <div class="mobCard mx-sm-2 mx-2">
+          <div class="">
+            <img
+              src="./assets/images/huawei.jpg"
+              class="card-img-top imgBorder"
+              alt="..."
+            />
+            <p class="appleTxt text-center mt-1">Huawei Iphones</p>
           </div>
-       
+        </div>
       </div>
       <!-- circle cards END  -->
 
+ 
+      <div class="row px-md-4">
+        <div class="col-md-3">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header d-flexn" id="headingOne">
+                <span class="p-0 filterBtn"> Filters </span>
+                <button
+                  class="btn btn-link clearBtn pb-2 ps-4"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Clear
+                </button>
+
+                <div class="dropdown">
+                  <button
+                    class="btn catBtn"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    CATEGORIES
+                    <span class="catIcon"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="8"
+                        height="8"
+                        viewBox="0 0 6 5"
+                        fill="none"
+                      >
+                        <path
+                          d="M5.69982 0.253931H0.299665C0.244992 0.254102 0.1914 0.269182 0.144659 0.297545C0.0979176 0.32591 0.0597963 0.366483 0.0343995 0.414901C0.00900269 0.463319 -0.00270844 0.517746 0.000526905 0.572325C0.00376177 0.626903 0.0218201 0.679566 0.0527587 0.724644L2.75284 4.62475C2.86474 4.78646 3.13415 4.78646 3.24635 4.62475L5.94643 0.724644C5.97768 0.67966 5.99601 0.626971 5.99942 0.572301C6.00283 0.517632 5.99119 0.463073 5.96577 0.414553C5.94035 0.366033 5.90212 0.325407 5.85523 0.297089C5.80835 0.268771 5.75459 0.253844 5.69982 0.253931Z"
+                          fill="#0C0B0B"
+                          fill-opacity="0.42"
+                        /></svg
+                    ></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordion"
+              >
+                <div class="card-body p-1 m-0 bodyClr">
+                  <div class="dropdown">
+                    <a
+                      class="btn p-0 smartBtn"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="ps-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="6"
+                          height="5"
+                          viewBox="0 0 6 5"
+                          fill="none"
+                        >
+                          <path
+                            d="M5.69982 4.74607H0.299665C0.244992 4.7459 0.1914 4.73082 0.144659 4.70245C0.0979176 4.67409 0.0597963 4.63352 0.0343995 4.5851C0.00900269 4.53668 -0.00270844 4.48225 0.000526905 4.42768C0.00376177 4.3731 0.0218201 4.32043 0.0527587 4.27536L2.75284 0.375246C2.86474 0.213541 3.13415 0.213541 3.24635 0.375246L5.94643 4.27536C5.97768 4.32034 5.99601 4.37303 5.99942 4.4277C6.00283 4.48237 5.99119 4.53693 5.96577 4.58545C5.94035 4.63397 5.90212 4.67459 5.85523 4.70291C5.80835 4.73123 5.75459 4.74616 5.69982 4.74607Z"
+                            fill="#0C0B0B"
+                            fill-opacity="0.42"
+                          />
+                        </svg>
+                      </span>
+                      Smartphones
+                    </a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <hr />
+                  <div class="dropdown">
+                    <a
+                      class="btn"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Price
+                      <span class="priceIcon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="6"
+                          height="5"
+                          viewBox="0 0 6 5"
+                          fill="none"
+                        >
+                          <path
+                            d="M5.69982 0.253931H0.299665C0.244992 0.254102 0.1914 0.269182 0.144659 0.297545C0.0979176 0.32591 0.0597963 0.366483 0.0343995 0.414901C0.00900269 0.463319 -0.00270844 0.517746 0.000526905 0.572325C0.00376177 0.626903 0.0218201 0.679566 0.0527587 0.724644L2.75284 4.62475C2.86474 4.78646 3.13415 4.78646 3.24635 4.62475L5.94643 0.724644C5.97768 0.67966 5.99601 0.626971 5.99942 0.572301C6.00283 0.517632 5.99119 0.463073 5.96577 0.414553C5.94035 0.366033 5.90212 0.325407 5.85523 0.297089C5.80835 0.268771 5.75459 0.253844 5.69982 0.253931Z"
+                            fill="#0C0B0B"
+                            fill-opacity="0.42"
+                          />
+                        </svg>
+                      </span>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <hr />
+                  <div class="dropdown">
+                    <a
+                      class="btn"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Smartwatches
+                      <span class="smartIcon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="6"
+                          height="5"
+                          viewBox="0 0 6 5"
+                          fill="none"
+                        >
+                          <path
+                            d="M5.69982 0.253931H0.299665C0.244992 0.254102 0.1914 0.269182 0.144659 0.297545C0.0979176 0.32591 0.0597963 0.366483 0.0343995 0.414901C0.00900269 0.463319 -0.00270844 0.517746 0.000526905 0.572325C0.00376177 0.626903 0.0218201 0.679566 0.0527587 0.724644L2.75284 4.62475C2.86474 4.78646 3.13415 4.78646 3.24635 4.62475L5.94643 0.724644C5.97768 0.67966 5.99601 0.626971 5.99942 0.572301C6.00283 0.517632 5.99119 0.463073 5.96577 0.414553C5.94035 0.366033 5.90212 0.325407 5.85523 0.297089C5.80835 0.268771 5.75459 0.253844 5.69982 0.253931Z"
+                            fill="#0C0B0B"
+                            fill-opacity="0.42"
+                          />
+                        </svg>
+                      </span>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <hr />
+                  <div class="dropdown">
+                    <a
+                      class="btn p-0 smartBtn"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="ps-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="6"
+                          height="5"
+                          viewBox="0 0 6 5"
+                          fill="none"
+                        >
+                          <path
+                            d="M5.69982 4.74607H0.299665C0.244992 4.7459 0.1914 4.73082 0.144659 4.70245C0.0979176 4.67409 0.0597963 4.63352 0.0343995 4.5851C0.00900269 4.53668 -0.00270844 4.48225 0.000526905 4.42768C0.00376177 4.3731 0.0218201 4.32043 0.0527587 4.27536L2.75284 0.375246C2.86474 0.213541 3.13415 0.213541 3.24635 0.375246L5.94643 4.27536C5.97768 4.32034 5.99601 4.37303 5.99942 4.4277C6.00283 4.48237 5.99119 4.53693 5.96577 4.58545C5.94035 4.63397 5.90212 4.67459 5.85523 4.70291C5.80835 4.73123 5.75459 4.74616 5.69982 4.74607Z"
+                            fill="#0C0B0B"
+                            fill-opacity="0.42"
+                          />
+                        </svg>
+                      </span>
+                      Shop
+                    </a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <hr />
+                  <div class="dropdown">
+                    <a
+                      class="btn p-0 smartBtn"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="ps-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="6"
+                          height="5"
+                          viewBox="0 0 6 5"
+                          fill="none"
+                        >
+                          <path
+                            d="M5.69982 4.74607H0.299665C0.244992 4.7459 0.1914 4.73082 0.144659 4.70245C0.0979176 4.67409 0.0597963 4.63352 0.0343995 4.5851C0.00900269 4.53668 -0.00270844 4.48225 0.000526905 4.42768C0.00376177 4.3731 0.0218201 4.32043 0.0527587 4.27536L2.75284 0.375246C2.86474 0.213541 3.13415 0.213541 3.24635 0.375246L5.94643 4.27536C5.97768 4.32034 5.99601 4.37303 5.99942 4.4277C6.00283 4.48237 5.99119 4.53693 5.96577 4.58545C5.94035 4.63397 5.90212 4.67459 5.85523 4.70291C5.80835 4.73123 5.75459 4.74616 5.69982 4.74607Z"
+                            fill="#0C0B0B"
+                            fill-opacity="0.42"
+                          />
+                        </svg>
+                      </span>
+                      Location
+                    </a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+ 
       <div class="row px-md-4 ">
           <div class="col-md-3 sideClr ">
             <div class="d-flex justify-content-between mt-2">
@@ -255,9 +672,95 @@
                 </div>
               </div>
       
+ 
             </div>
             <hr>
           </div>
+ 
+        </div>
+        <div class="col-md-9 cardsMain">
+          <h4 class="ms-5">Smartphones</h4>
+          <div class="row">
+            <div class="col-md-9">
+              <div class="d-flex mt-2 flex-column flex-md-row">
+                <p class="sort">Sort By</p>
+                <a href="#" class="popular pt-1 mx-md-4">Popularity</a>
+                <a href="#" class="popular pt-1 mx-md-4"
+                  >Price -- Low to High</a
+                >
+                <a href="#" class="popular pt-1 mx-md-4"
+                  >Price -- High to Low</a
+                >
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4"></div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-6 col-lg-4">
+              <div class="card mobCardShahdow">
+                <img
+                  src="./assets/images/mobcardimg.png"
+                  class="card-img-top imgHeight"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty
+                  </p>
+                  <div class="d-flex">
+                    <button type="button" class="btn priceBtn text-white">
+                      4.00
+                      <span class="pb-5"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 8 9"
+                          fill="none"
+                        >
+                          <path
+                            d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z"
+                            fill="white"
+                          /></svg
+                      ></span>
+                    </button>
+
+                    <small class="pt-2 ms-2">(0)</small>
+                  </div>
+                  <p class="mobPrice mt-2">Rs 25,999</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card mobCardShahdow">
+                <img
+                  src="./assets/images/mobcardimg.png"
+                  class="card-img-top imgHeight"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty
+                  </p>
+                  <div class="d-flex">
+                    <button type="button" class="btn priceBtn text-white">
+                      4.00
+                      <span class="pb-5"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 8 9"
+                          fill="none"
+                        >
+                          <path
+                            d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z"
+                            fill="white"
+                          /></svg
+                      ></span>
+                    </button>
+                    
+ 
           <div class="col-md-9 cardsMain ">
               <h4 class="ms-5">Smartphones</h4>
               <div class="row">
@@ -292,24 +795,7 @@
                       </div>
                     </div>
               </div>
-                  <!-- <div class="col-md-6 col-lg-4">
-                      <div class="card mobCardShahdow">
-                          <img src="./assets/images/mobcardimg.png" class="card-img-top imgHeight" alt="...">
-                          <div class="card-body">
-                         
-                            <p class="card-text  ">Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty</p>
-                            <div class="d-flex">
-                              <button type="button" class="btn priceBtn text-white">4.00 <span class="pb-5"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 8 9" fill="none">
-                                  <path d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z" fill="white"/>
-                                  </svg></span></button>
-                      
-                                  <small class="pt-2 ms-2">(0)</small>
-                            </div>
-                            <p class="mobPrice mt-2">Rs 25,999</p>
-                          
-                          </div>
-                        </div>
-                  </div> -->
+            
                   <div class="col-md-6 col-lg-4 mt-2">
                       <div class="card mobCardShahdow">
                           <img src="./assets/images/mobcardimg.png" class="card-img-top imgHeight" alt="...">
@@ -321,138 +807,270 @@
                                   <path d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z" fill="white"/>
                                   </svg></span></button>
                               <!-- <a href="#" class="btn priceBtn text-white">4.00 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 8 9" fill="none">
+ 
                                   <path d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z" fill="white"/>
                                   </svg></a> -->
-                                  <small class="pt-2 ms-2">(0)</small>
-                            </div>
-                            <p class="mobPrice mt-2">Rs 25,999</p>
-                          
-                          </div>
-                        </div>
+                    <small class="pt-2 ms-2">(0)</small>
                   </div>
-                  <div class="col-md-6 col-lg-4 mt-2">
-                      <div class="card mobCardShahdow">
-                          <img src="./assets/images/mobcardimg.png" class="card-img-top imgHeight" alt="...">
-                          <div class="card-body">
-                            
-                            <p class="card-text">Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty</p>
-                            <div class="d-flex">
-                              <button type="button" class="btn priceBtn text-white">4.00 <span class="pb-5"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 8 9" fill="none">
-                                  <path d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z" fill="white"/>
-                                  </svg></span></button>
-                              <!-- <a href="#" class="btn priceBtn text-white">4.00 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 8 9" fill="none">
-                                  <path d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z" fill="white"/>
-                                  </svg></a> -->
-                                  <small class="pt-2 ms-2">(0)</small>
-                            </div>
-                            <p class="mobPrice mt-2">Rs 25,999</p>
-                          
-                          </div>
-                        </div>
-                  </div>
-                  <div class="col-md-6 col-lg-4 mt-2">
-                      <div class="card mobCardShahdow">
-                          <img src="./assets/images/mobcardimg.png" class="card-img-top imgHeight" alt="...">
-                          <div class="card-body">
-                          
-                            <p class="card-text">Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty</p>
-                            <div class="d-flex">
-                              <button type="button" class="btn priceBtn text-white">4.00 <span class="pb-5"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 8 9" fill="none">
-                                  <path d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z" fill="white"/>
-                                  </svg></span></button>
-                                  <small class="pt-2 ms-2">(0)</small>
-                            </div>
-                            <p class="mobPrice mt-2">Rs 25,999</p>
-                          
-                          </div>
-                        </div>
-                  </div>
-                  <div class="col-md-6 col-lg-4 mt-2">
-                      <div class="card mobCardShahdow">
-                          <img src="./assets/images/mobcardimg.png" class="card-img-top imgHeight" alt="...">
-                          <div class="card-body">
-                           
-                            <p class="card-text">Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty</p>
-                            <div class="d-flex">
-                              <button type="button" class="btn priceBtn text-white">4.00 <span class="pb-5"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 8 9" fill="none">
-                                  <path d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z" fill="white"/>
-                                  </svg></span></button>
-                                  <small class="pt-2 ms-2">(0)</small>
-                            </div>
-                            <p class="mobPrice mt-2">Rs 25,999</p>
-                          
-                          </div>
-                        </div>
-                  </div>
-                  <div class="col-md-6 col-lg-4 mt-2">
-                      <div class="card mobCardShahdow">
-                          <img src="./assets/images/mobcardimg.png" class="card-img-top imgHeight" alt="...">
-                          <div class="card-body">
-                           
-                            <p class="card-text">Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty</p>
-                            <div class="d-flex">
-                              <button type="button" class="btn priceBtn text-white">4.00 <span class="pb-5"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 8 9" fill="none">
-                                  <path d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z" fill="white"/>
-                                  </svg></span></button>
-                                  <small class="pt-2 ms-2">(0)</small>
-                            </div>
-                            <p class="mobPrice mt-2">Rs 25,999</p>
-                          
-                          </div>
-                        </div>
-                  </div>
-                  <div class="col-md-6 col-lg-4 mt-2">
-                      <div class="card mobCardShahdow">
-                          <img src="./assets/images/mobcardimg.png" class="card-img-top imgHeight" alt="...">
-                          <div class="card-body">
-                           
-                            <p class="card-text">Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty</p>
-                            <div class="d-flex">
-                              <button type="button" class="btn priceBtn text-white">4.00 <span class="pb-5"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 8 9" fill="none">
-                                  <path d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z" fill="white"/>
-                                  </svg></span></button>
-                                  <small class="pt-2 ms-2">(0)</small>
-                            </div>
-                            <p class="mobPrice mt-2">Rs 25,999</p>
-                          
-                          </div>
-                        </div>
-                  </div>
-                  <div class="col-md-6 col-lg-4 mt-2">
-                      <div class="card mobCardShahdow">
-                          <img src="./assets/images/mobcardimg.png" class="card-img-top imgHeight" alt="...">
-                          <div class="card-body">
-                           
-                            <p class="card-text">Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty</p>
-                            <div class="d-flex">
-                              <button type="button" class="btn priceBtn text-white">4.00 <span class="pb-5"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 8 9" fill="none">
-                                  <path d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z" fill="white"/>
-                                  </svg></span></button>
-                                  <small class="pt-2 ms-2">(0)</small>
-                            </div>
-                            <p class="mobPrice mt-2">Rs 25,999</p>
-                          
-                          </div>
-                        </div>
-                  </div>
-                  <div class="col-md-6 col-lg-4 mt-2">
-                      <div class="card mobCardShahdow">
-                          <img src="./assets/images/mobcardimg.png" class="card-img-top imgHeight" alt="...">
-                          <div class="card-body">
-                           
-                            <p class="card-text">Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty</p>
-                            <div class="d-flex">
-                              <button type="button" class="btn priceBtn text-white">4.00 <span class="pb-5"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 8 9" fill="none">
-                                  <path d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z" fill="white"/>
-                                  </svg></span></button>
-                                  <small class="pt-2 ms-2">(0)</small>
-                            </div>
-                            <p class="mobPrice mt-2">Rs 25,999</p>
-                          
-                          </div>
-                        </div>
-                  </div>
+ 
+                  <p class="mobPrice mt-2">Rs 25,999</p>
+                </div>
               </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card mobCardShahdow">
+                <img
+                  src="./assets/images/mobcardimg.png"
+                  class="card-img-top imgHeight"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty
+                  </p>
+                  <div class="d-flex">
+                    <button type="button" class="btn priceBtn text-white">
+                      4.00
+                      <span class="pb-5"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 8 9"
+                          fill="none"
+                        >
+                          <path
+                            d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z"
+                            fill="white"
+                          /></svg
+                      ></span>
+                    </button>
+                    <!-- <a href="#" class="btn priceBtn text-white">4.00 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 8 9" fill="none">
+ 
+                  <div class="col-md-6 col-lg-4 mt-2">
+                      <div class="card mobCardShahdow">
+                          <img src="./assets/images/mobcardimg.png" class="card-img-top imgHeight" alt="...">
+                          <div class="card-body">
+                            
+                            <p class="card-text">Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty</p>
+                            <div class="d-flex">
+                              <button type="button" class="btn priceBtn text-white">4.00 <span class="pb-5"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 8 9" fill="none">
+                                  <path d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z" fill="white"/>
+                                  </svg></span></button>
+                              <!-- <a href="#" class="btn priceBtn text-white">4.00 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 8 9" fill="none">
+ 
+                                  <path d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z" fill="white"/>
+                                  </svg></a> -->
+                    <small class="pt-2 ms-2">(0)</small>
+                  </div>
+                  <p class="mobPrice mt-2">Rs 25,999</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-2">
+              <div class="card mobCardShahdow">
+                <img
+                  src="./assets/images/mobcardimg.png"
+                  class="card-img-top imgHeight"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty
+                  </p>
+                  <div class="d-flex">
+                    <button type="button" class="btn priceBtn text-white">
+                      4.00
+                      <span class="pb-5"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 8 9"
+                          fill="none"
+                        >
+                          <path
+                            d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z"
+                            fill="white"
+                          /></svg
+                      ></span>
+                    </button>
+                    <small class="pt-2 ms-2">(0)</small>
+                  </div>
+                  <p class="mobPrice mt-2">Rs 25,999</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-2">
+              <div class="card mobCardShahdow">
+                <img
+                  src="./assets/images/mobcardimg.png"
+                  class="card-img-top imgHeight"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty
+                  </p>
+                  <div class="d-flex">
+                    <button type="button" class="btn priceBtn text-white">
+                      4.00
+                      <span class="pb-5"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 8 9"
+                          fill="none"
+                        >
+                          <path
+                            d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z"
+                            fill="white"
+                          /></svg
+                      ></span>
+                    </button>
+                    <small class="pt-2 ms-2">(0)</small>
+                  </div>
+                  <p class="mobPrice mt-2">Rs 25,999</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-2">
+              <div class="card mobCardShahdow">
+                <img
+                  src="./assets/images/mobcardimg.png"
+                  class="card-img-top imgHeight"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty
+                  </p>
+                  <div class="d-flex">
+                    <button type="button" class="btn priceBtn text-white">
+                      4.00
+                      <span class="pb-5"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 8 9"
+                          fill="none"
+                        >
+                          <path
+                            d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z"
+                            fill="white"
+                          /></svg
+                      ></span>
+                    </button>
+                    <small class="pt-2 ms-2">(0)</small>
+                  </div>
+                  <p class="mobPrice mt-2">Rs 25,999</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-2">
+              <div class="card mobCardShahdow">
+                <img
+                  src="./assets/images/mobcardimg.png"
+                  class="card-img-top imgHeight"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty
+                  </p>
+                  <div class="d-flex">
+                    <button type="button" class="btn priceBtn text-white">
+                      4.00
+                      <span class="pb-5"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 8 9"
+                          fill="none"
+                        >
+                          <path
+                            d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z"
+                            fill="white"
+                          /></svg
+                      ></span>
+                    </button>
+                    <small class="pt-2 ms-2">(0)</small>
+                  </div>
+                  <p class="mobPrice mt-2">Rs 25,999</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-2">
+              <div class="card mobCardShahdow">
+                <img
+                  src="./assets/images/mobcardimg.png"
+                  class="card-img-top imgHeight"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty
+                  </p>
+                  <div class="d-flex">
+                    <button type="button" class="btn priceBtn text-white">
+                      4.00
+                      <span class="pb-5"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 8 9"
+                          fill="none"
+                        >
+                          <path
+                            d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z"
+                            fill="white"
+                          /></svg
+                      ></span>
+                    </button>
+                    <small class="pt-2 ms-2">(0)</small>
+                  </div>
+                  <p class="mobPrice mt-2">Rs 25,999</p>
+                </div>
+              </div>
+ 
+            </div>
+            <div class="col-md-6 col-lg-4 mt-2">
+              <div class="card mobCardShahdow">
+                <img
+                  src="./assets/images/mobcardimg.png"
+                  class="card-img-top imgHeight"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Oppo A16e (4GB , 64GB) Dual Sim With Official Warranty
+                  </p>
+                  <div class="d-flex">
+                    <button type="button" class="btn priceBtn text-white">
+                      4.00
+                      <span class="pb-5"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 8 9"
+                          fill="none"
+                        >
+                          <path
+                            d="M4 6.80801L6.472 8.30001L5.816 5.48801L8 3.59601L5.124 3.35201L4 0.700012L2.876 3.35201L0 3.59601L2.184 5.48801L1.528 8.30001L4 6.80801Z"
+                            fill="white"
+                          /></svg
+                      ></span>
+                    </button>
+                    <small class="pt-2 ms-2">(0)</small>
+                  </div>
+                  <p class="mobPrice mt-2">Rs 25,999</p>
+                </div>
+ 
         
            <hr>
            <!-- <div class="p-0 m-0"> -->
@@ -467,19 +1085,110 @@
                        
                      </ul>
                    </nav>
+ 
               </div>
-           <!-- </div> -->
-          
-
+            </div>
           </div>
+
+          <hr />
+          <!-- <div class="p-0 m-0"> -->
+          <span class="page ms-3">Page 1 of 2</span>
+          <div class="d-flex justify-content-center pageMarg">
+            <nav aria-label="...">
+              <ul class="pagination pageCircle">
+                <li class="active mx-1" aria-current="page">
+                  <span class="page-link pageCircle text-white">1</span>
+                </li>
+                <li class="">
+                  <a class="page-link pageCircle twoClr text-white" href="#"
+                    >2</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- </div> -->
+        </div>
       </div>
-      
-    
+    </div>
+    <!----#############>footer Start<###############----->
+    <footer class="foot">
+      <div class="container pt-5 pb-5">
+        <div class="row foot-row pt-5 pb-5">
+          <div class="col-lg-5">
+            <div class="col-sec mx-lg-5">
+              <img src="./assets/img/MobFix.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur. In et senectus rhoncus
+                in sed. Sit viverra malesuada suspendisse amet aenean et ac
+                pretium. Tristique donec massa ac nec et quis. Et viverra arcu
+                id porttitor.Lorem ipsum dolor sit amet consectetur. In et
+                senectus rhoncus in sed. Sit
+              </p>
+            </div>
+            <div class="mx-lg-5 icons">
+              <a href=""
+                ><img src="assets/img/icons/facebook.png" alt="" class="icon1"
+              /></a>
+              <a href=""
+                ><img
+                  src="assets/img/icons/twitter.png"
+                  alt=""
+                  class="mx-2 icon2"
+              /></a>
+              <a href=""
+                ><img
+                  src="assets/img/icons/insta.png"
+                  alt=""
+                  class="mx-2 icon3"
+              /></a>
+              <a href=""
+                ><img
+                  src="assets/img/icons/linkedin.png"
+                  alt=""
+                  class="mx-2 icon4"
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="mt-4">Navigation</h5>
+            <ul class="list-unstyled list">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./aboutus.html">About Us</a></li>
+              <li><a href="./getPhone.html">Get a new phone</a></li>
+              <li><a href="#">Fix Your Stuff</a></li>
+              <li><a href="./Service.html">Services</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 pe-4">
+            <h5 class="mt-4">Contact Us</h5>
 
-   </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-</body>
+            <ul class="list-unstyled list1 mt-4">
+              <li>
+                <i class="fa-solid fa-phone"></i
+                ><a href="" class="mx-2">1-888-777-55555</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i
+                ><a href="" class="mx-2">phone-repair@example.com</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i
+                ><a href="" class="mx-2"
+                  >131 Lonsdale St, Melbourne VIC 3000, Australia</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!----#############>footer End<################----->
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
