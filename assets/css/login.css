@@ -103,12 +103,12 @@
     font-size: 22px;
     font-weight: 300;
 }
-.eye-icon img{
+/* .eye-icon i{
     position: absolute;
     width: 17px;
     right: 10px;
     top: 44px;
-}
+} */
 .label-color {
     color: #00000080;
     font-weight: 400;

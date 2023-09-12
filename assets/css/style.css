@@ -265,7 +265,7 @@ body {
 }
 
 .loremm {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .inputGroup {
@@ -1117,7 +1117,7 @@ font-weight: 400;
   cursor: pointer;
   color: var(--feedback-color);
 
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .feed-para2 {
@@ -2523,3 +2523,60 @@ transition: width 2s, height 2s;
 }
 
 /*################> Footer End <#############  */
+
+.comBtn{
+  color: rgba(0, 0, 0, 0.68) !important;
+font-family: Segoe UI !important;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 7px;
+border: 1px solid rgba(0, 0, 0, 0.37);
+}
+.comBtn:hover{
+  border-radius: 7px;
+border: 1px solid rgba(0, 0, 0, 0.37);
+}
+.uselessBtn{
+  color: rgba(0, 0, 0, 0.69);
+  font-family: Segoe UI;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.heigtCont{
+  height: 200px !important;
+}
+.postBtn:hover{
+background-color: var( --feedback-color) !important ;
+border: var( --feedback-color) !important  ;
+}
+.newPhone:hover{
+  background-color: var( --feedback-color) !important ;
+  color: white !important;
+}
+.searchIcn:hover{
+  cursor:  pointer !important;
+}
+.abcClass{
+  border-radius: 5px !important;
+}
+
+#exampleInputPassword1[type="password"] {
+  -webkit-text-security: disc;
+}
+.viewGuide:hover{
+  background-color: var( --feedback-color) !important ;
+  color: white !important;
+}
+.eye-icon i{
+  position: absolute;
+  width: 17px;
+  right: 10px;
+  top: 44px;
+}
+.FbIcon:hover{
+  cursor: pointer;
+}
