@@ -123,13 +123,13 @@
   cursor: pointer;
   position: relative;
 }
-
-.navbarhover .itemhover {
+ 
+.navbar .itemhover {
   position: relative;
   display: flex;
   justify-content: center;
 }
-
+hover
 .dropdown-toggle::after {
   margin-top: 10px;
 }
@@ -180,6 +180,13 @@
   color: var(--heading1-color) !important;
 }
 
+/* @media(max-width:1130px) {
+  .navbarhover{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: start !important;
+  }
+} */
 
 @media(max-width:992px) {
   .navbarhover .nav-item {
@@ -447,7 +454,7 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: normal; 
 }
 
 .cBg {
@@ -1308,7 +1315,7 @@ font-weight: 400;
 
 .backgroundcontainer {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1671,6 +1678,9 @@ font-weight: 400;
   .mobDiv {
     overflow: scroll !important;
 
+  }
+  .imgHeight{
+    height: 380px !important;
   }
 
 }
