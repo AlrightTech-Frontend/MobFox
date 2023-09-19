@@ -214,6 +214,20 @@ hover
   }
 }
 
+/* Inactive link style */
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+/* Active link style */
+.navbar-nav .nav-link.active {
+  color:  var( --fBtn); /* Change to the desired active link color */
+  font-weight: bold; /* You can customize the active link style further */
+}
+
+
+
+
 /* header end */
 /* home start */
 

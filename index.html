@@ -42,15 +42,15 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0 nav-list p-4 navbarhover">
               <li class="nav-item itemhover">
-                <a class="nav-link" aria-current="page" href="./index.html"
+                <a class="nav-link  " aria-current="page" href="./index.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item itemhover">
-                <a class="nav-link" href="./aboutus.html">About Us</a>
+                <a class="nav-link  " href="./aboutus.html">About Us</a>
               </li>
               <li class="nav-item itemhover">
-                <a class="nav-link" href="./getPhone.html">Get a new phone</a>
+                <a class="nav-link  " href="./getPhone.html">Get a new phone</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -79,12 +79,12 @@
                 >
               </li>
               <li class="nav-item itemhover">
-                <a href="./Faq.html" class="nav-link" aria-disabled="true"
+                <a href="./Faq.html" class="nav-link  " aria-disabled="true"
                   >FAQ</a
                 >
               </li>
               <li class="nav-item itemhover">
-                <a href="./contactus.html" class="nav-link" aria-disabled="true"
+                <a href="./contactus.html" class="nav-link " aria-disabled="true"
                   >Contact Us</a
                 >
               </li>
@@ -604,83 +604,7 @@
         </div>
         <!-- carousel end -->
       </div>
-      <!-- <div class="row my-3">
-        <h1 class="he2 my-2">Testimonials</h1>
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner  mx-md-5">
-            <div class="carousel-item cItem active p-md-5">
-              <p class="para11">JOSEPH JIMENEZ</p>
-              <p class="para12">OSEPH JIMENEZ@gmail.com</p>
-              <div class="stars d-flex justify-content-center">
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <p class="para12 ">
-                But I must explain to you how all this mistakn idea of
-                denouncing pleasure and praising pain was born and I will give
-                you a complete of the system, and expound the actual teaings of
-                the great explorer idea to be on the top of the mobile industry.
-              </p>
-            </div>
-            <div class="carousel-item cItem p-md-5">
-              <p class="para11">JOSEPH JIMENEZ</p>
-              <p class="para12">OSEPH JIMENEZ@gmail.com</p>
-              <div class="stars d-flex justify-content-center">
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <p class="para12">
-                But I must explain to you how all this mistakn idea of
-                denouncing pleasure and praising pain was born and I will give
-                you a complete of the system, and expound the actual teaings of
-                the great explorer idea to be on the top of the mobile industry.
-              </p>
-            </div>
-            <div class="carousel-item cItem p-md-5">
-              <p class="para11">JOSEPH JIMENEZ</p>
-              <p class="para12">OSEPH JIMENEZ@gmail.com</p>
-              <div class="stars d-flex justify-content-center">
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <p class="para12">
-                But I must explain to you how all this mistakn idea of
-                denouncing pleasure and praising pain was born and I will give
-                you a complete of the system, and expound the actual teaings of
-                the great explorer idea to be on the top of the mobile industry.
-              </p>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev cBg px-md-3"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next cBg px-md-3"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div> -->
-      <!-- carousel end -->
+      
     </div>
     <!----#############>footer Start<###############----->
     <footer class="foot">
@@ -758,5 +682,31 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+ 
+    <!-- for active and not active  -->
+    <script>
+      // Get all navigation links
+      const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    
+      // Add click event listeners to each link
+      navLinks.forEach((link) => {
+        link.addEventListener('click', (event) => {
+          // Prevent the default behavior of the anchor tag
+          // event.preventDefault();
+    
+          // Remove the 'active' class from all links
+          navLinks.forEach((navLink) => {
+            navLink.classList.remove('active');
+          });
+    
+          // Add the 'active' class to the clicked link
+          link.classList.add('active');
+        });
+      });
+    </script>
+    
+    
+    <!-- for active and not active  -->
+
   </body>
 </html>
