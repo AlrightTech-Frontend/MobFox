@@ -18,261 +18,468 @@
     --para3-color: rgba(0, 0, 0, 0.50);
     /* Replace with your desired color */
 
-     /* by ikram  */
-     --inputColor: rgba(82, 95, 225, 0.33);
-     --inputFamily:Segoe UI;
-     --searchClr:#525FE1;
-     --appleTxt:14px;
-     --appleTxtrwo:13px;
-     --cardShadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-     --priceSize:18px;
-     --sideShadow:1px 1px 8px 0px rgba(0, 0, 0, 0.16);
-     --mainContainerClr: #FCFCFC;
-     /* --smallFont:13px; */
-     /* by ikram  */
+    /* by ikram  */
+    --inputColor: rgba(82, 95, 225, 0.33);
+    --inputFamily: Segoe UI;
+    --searchClr: #525FE1;
+    --appleTxt: 14px;
+    --appleTxtrwo: 13px;
+    --cardShadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    --priceSize: 18px;
+    --sideShadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.16);
+    --mainContainerClr: #FCFCFC;
+    /* --smallFont:13px; */
+    /* by ikram  */
 }
-.mobBanner{
-   /* background: url(../images/mobbanner.png); */
-   background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/mobbanner.png) , lightgray 0px -164.701px / 100% 168.432% no-repeat;
-   object-fit: cover;
-   background-repeat: no-repeat;
-   height: 400px;
-   background-size: cover;
-   /* width: 100%; */
+
+.mobBanner {
+    /* background: url(../images/mobbanner.png); */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/mobbanner.png), lightgray 0px -164.701px / 100% 168.432% no-repeat;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    /* width: 100%; */
 }
-.backgroundcontainer{
+
+.backgroundcontainer {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.inputOne{
+
+.inputOne {
     background-color: var(--inputColor) !important;
     outline: none !important;
     border-color: none !important;
     font-family: var(--inputFamily) !important;
 }
-.searchIcon{
+
+.searchIcon {
     background-color: var(--searchClr) !important;
     /* height: 15px !important; */
 }
-.searchIcon i:hover{
+
+.searchIcon i:hover {
     transform: scale(o.9) !important;
     /* color: var(--heading1-color) !important; */
     cursor: pointer !important;
     transform: scale(1.5) !important;
     transition: transform 0.4s ease;
     color: white !important;
-    
+
 }
-.imgBorder{
+
+.imgBorder {
     border-radius: 50% !important;
-    border: 2px solid var( --navbar-button-color) !important;
+    border: 2px solid var(--navbar-button-color) !important;
     height: 140px !important;
     width: 140px !important;
     box-shadow: var(--cardShadow) !important;
     object-fit: cover;
 }
-.appleTxt{
+
+.appleTxt {
     font-size: var(--appleTxt) !important;
-    font-weight: var( --h2-font-weight);
+    font-weight: var(--h2-font-weight);
 }
-.sort{
-    color: var( --para1-color) !important;
+
+.sort {
+    color: var(--para1-color) !important;
     font-weight: 600;
-font-size: var(--h3-font-size) !important;
+    font-size: var(--h3-font-size) !important;
 }
-.popular{
+
+.popular {
     font-style: normal;
-font-weight: 400;
-font-family: var(--inputFamily) !important;
-text-decoration: none !important;
-color: var(--para3-color) !important;
+    font-weight: 400;
+    font-family: var(--inputFamily) !important;
+    text-decoration: none !important;
+    color: var(--para3-color) !important;
 }
-.popular:hover{
+
+.popular:hover {
     font-style: normal;
-font-weight: 400;
-font-family: var(--inputFamily) !important;
-text-decoration: none !important;
-color: var(--searchClr) !important;
+    font-weight: 400;
+    font-family: var(--inputFamily) !important;
+    text-decoration: none !important;
+    color: var(--searchClr) !important;
 }
-.priceBtn{
+
+.priceBtn {
     background-color: var(--feedback-color) !important;
-    
+
 
 }
-.mobPrice{
+
+.mobPrice {
     color: var(--feedback-color) !important;
     font-style: normal;
-font-weight: 400;
-font-size: var(--priceSize) !important;
+    font-weight: 400;
+    font-size: var(--priceSize) !important;
 }
-.mobCardShahdow{
-    box-shadow:var(--cardShadow) !important;
+
+.mobCardShahdow {
+    box-shadow: var(--cardShadow) !important;
     /* height: 95% !important; */
 }
-.cardsMain{
+
+.cardsMain {
     background-color: var(--mainContainerClr) !important;
     /* box-shadow: var(--sideShadow) !important; */
 }
-.page{
-    color:var(--para1-color) !important;
-font-family: var(--inputFamily) !important;
-font-size: 15px;
-font-style: normal;
-font-weight: 600;
-/* margin-top: 60px !important ; */
+
+.page {
+    color: var(--para1-color) !important;
+    font-family: var(--inputFamily) !important;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    /* margin-top: 60px !important ; */
 }
-.pageCircle{
+
+.pageCircle {
     border-radius: 50% !important;
     height: 38px !important;
     width: 38px !important;
-   
+
 }
-.twoClr{
+
+.twoClr {
     background-color: #B6B6B8 !important;
 }
-.pageMarg{
+
+.pageMarg {
     margin-top: -20px !important;
 }
+
 /* .pageMargin{
     margin-top: 90px !important;
 } */
-.mobtxt{
+.mobtxt {
     font-size: var(--appleTxtrwo) !important;
 }
-.imgHeight{
+
+.imgHeight {
     height: 275px !important;
     padding: 15px !important;
 }
-.filterBtn{
-    text-decoration:  none !important;
-   
-    font-size:var( --h3-font-size) !important; 
+
+.filterBtn {
+    text-decoration: none !important;
+
+    font-size: var(--h3-font-size) !important;
     font-size: 20px !important;
     color: #000 !important;
-font-family: Segoe UI !important;
-font-size: 20px !important;
-font-style: normal;
-font-weight: 600;
+    font-family: Segoe UI !important;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 600;
 }
-.sideClr{
+
+.sideClr {
     background-color: var(--mainContainerClr) !important;
     box-shadow: var(--sideShadow) !important;
     margin-top: -15px !important;
     /* height: 100vh; */
 }
-.clearBtn{
+
+.clearBtn {
     text-decoration: none !important;
-    font-size: var( --h2-font-size) !important;
+    font-size: var(--h2-font-size) !important;
     font-style: normal;
-font-weight: 600;
-color: var( --searchClr) !important;
-/* padding-left: 150px !important; */
+    font-weight: 600;
+    color: var(--searchClr) !important;
+    /* padding-left: 150px !important; */
 }
-.catBtn{
-  font-family: var(--inputFamily) !important;
-  font-size:11px !important;
+
+.catBtn {
+    font-family: var(--inputFamily) !important;
+    font-size: 11px !important;
 }
-.catBtn:active{
-  font-family: var(--inputFamily) !important;
-  font-size:11px !important;
-  border: none !important;
+
+.catBtn:active {
+    font-family: var(--inputFamily) !important;
+    font-size: 11px !important;
+    border: none !important;
 }
-.catBtn{
-  font-family: var(--inputFamily) !important;
-  font-size:11px !important;
+
+.catBtn {
+    font-family: var(--inputFamily) !important;
+    font-size: 11px !important;
 }
-.bodyClr{
-    background-color: var( --mainContainerClr) !important ;
+
+.bodyClr {
+    background-color: var(--mainContainerClr) !important;
     /* box-shadow: var(--sideShadow) !important; */
 }
-.smartBtn{
-font-size: var(--appleTxt) !important;
-color: var( --para1-color) !important;
-/* color: #000  !important; */
-font-weight: 600;
+
+.smartBtn {
+    font-size: var(--appleTxt) !important;
+    color: var(--para1-color) !important;
+    /* color: #000  !important; */
+    font-weight: 600;
 }
-.iconBtn{
+
+.iconBtn {
     padding-left: 95px !important;
 }
-.catIcon{
+
+.catIcon {
     padding-left: 170px !important;
 }
+
 /* .catBtn{
     padding-right: 10px !important;
 } */
-.priceIcon{
+.priceIcon {
     padding-left: 90px !important;
 }
-.smartIcon{
+
+.smartIcon {
     padding-left: 25px !important;
 }
-.accSet{
+
+.accSet {
     outline: none !important;
 }
-.accMargin{
+
+.accMargin {
     margin-top: -10px !important;
     border: none !important;
 }
-.priceIcon{
+
+.priceIcon {
     padding-left: 195px !important;
 }
-.bodyClr{
-    background-color: var( --mainContainerClr) !important;
+
+.bodyClr {
+    background-color: var(--mainContainerClr) !important;
 }
-.smartIcon{
+
+.smartIcon {
     padding-left: 128px !important;
 }
-.pageOne:hover{
-cursor: pointer !important;
+
+.pageOne:hover {
+    cursor: pointer !important;
 }
-.catBtn{
-border: none !important;
-outline: none !important;
-}
-.smart{
+
+.catBtn {
     border: none !important;
-outline: none !important;
-/* padding-right: 90px !important; */
+    outline: none !important;
 }
- 
- 
+
+.smart {
+    border: none !important;
+    outline: none !important;
+    /* padding-right: 90px !important; */
+}
 
 
 
+
+/* card filter */
+.card-foot-1 {
+    background: transparent !important;
+    border: none !important;
+
+}
+
+.footer-lst {
+
+    border-radius: 2px;
+    background: rgba(82, 95, 225, 0.21);
+
+}
+
+.button-2 {
+    white-space: nowrap;
+}
+
+.spm2 {
+    color: #F97813;
+    font-family: Segoe UI;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.checkout {
+    color: #FFF !important;
+
+    font-family: Segoe UI;
+    font-size: 14px !important;
+    background-color: ;
+    font-weight: 600 !important;
+    border-radius: 4px;
+    background: var(--main-color, #525FE1) !important;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25) !important;
+}
+
+.quantity {
+    padding: 4px 12px;
+    border-radius: 2px;
+    background: #F6F4F4;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.20);
+
+}
+
+.button-e {
+    color: rgba(0, 0, 0, 0.79);
+
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.price-span {
+    color: #F97813;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.silver {
+    color: #000 !important;
+
+    font-family: Segoe UI !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.oppo-mobile {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Segoe UI;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.silver span {
+    color: rgba(0, 0, 0, 0.34);
+
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.silver {
+    color: rgba(0, 0, 0, 0.79);
+    font-family: Segoe UI;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.total {
+
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.total span {
+    color: #F97813;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.h1-delievery {
+    color: rgba(0, 0, 0, 0.47);
+    font-family: Segoe UI;
+    font-size: 10px;
+    font-weight: 400;
+
+}
+
+.h1-delievery span {
+    color: #F97813;
+    font-family: Segoe UI;
+    font-size: 10px;
+    font-weight: 400;
+
+}
+
+.cart {
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cart span {
+    color: rgba(0, 0, 0, 0.38);
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.in-1 {
+    color: #000;
+
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* card filter */
 
 /* media query  */
 @media screen and (max-width: 768px) {
-   .mobDiv{
-    overflow: scroll !important;
-   
-   }
-    .imgHeight{
+    .mobDiv {
+        overflow: scroll !important;
+
+    }
+
+    .imgHeight {
         height: 385px !important;
         padding: 20px !important;
     }
-  }
+}
+
 @media screen and (max-width: 992px) {
-   .mobDiv{
-    overflow: scroll !important;
-   
-   }
-   .linksCol{
-    display: flex !important;
-    flex-direction: column !important;
-   }
-    
-  }
+    .mobDiv {
+        overflow: scroll !important;
+
+    }
+
+    .linksCol {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+}
+
 @media screen and (max-width: 576px) {
-   .mobDiv{
-    overflow: scroll !important;
-    /* margin-inline: 30px !important; */
-   }
-   .mobcard{
-    margin-inline: 15px !important;
-   }
-    
-  }
-  
+    .mobDiv {
+        overflow: scroll !important;
+        /* margin-inline: 30px !important; */
+    }
+
+    .mobcard {
+        margin-inline: 15px !important;
+    }
+
+}
+
 /* media query  */

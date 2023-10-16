@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <title>Cart with Off-Canvas</title>
+    </head>
+    <style>
+        .card-foot-1 {
+            background: transparent !important;
+            border: none !important;
+
+        }
+
+        .footer-lst {
+
+            border-radius: 2px;
+            background: rgba(82, 95, 225, 0.21);
+
+        }
+
+        .button-2 {
+            white-space: nowrap;
+        }
+
+        .spm2 {
+            color: #F97813;
+            font-family: Segoe UI;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .checkout {
+            color: #FFF !important;
+
+            font-family: Segoe UI;
+            font-size: 14px !important;
+            background-color: ;
+            font-weight: 600 !important;
+            border-radius: 4px;
+            background: var(--main-color, #525FE1) !important;
+            box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25) !important;
+        }
+
+        .quantity {
+            padding: 4px 12px;
+            border-radius: 2px;
+            background: #F6F4F4;
+            box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.20);
+
+        }
+
+        .button-e {
+            color: rgba(0, 0, 0, 0.79);
+
+            font-family: Segoe UI;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        .price-span {
+            color: #F97813;
+            font-family: Segoe UI;
+            font-size: 20px;
+            font-weight: 600;
+
+        }
+
+        .silver {
+            color: #000 !important;
+
+            font-family: Segoe UI !important;
+            font-size: 18px !important;
+            font-weight: 600 !important;
+        }
+
+        .oppo-mobile {
+            color: rgba(0, 0, 0, 0.80);
+            font-family: Segoe UI;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .silver span {
+            color: rgba(0, 0, 0, 0.34);
+
+            font-family: Segoe UI;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .silver {
+            color: rgba(0, 0, 0, 0.79);
+            font-family: Segoe UI;
+            font-size: 11px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .total {
+
+            color: #000;
+            font-family: Segoe UI;
+            font-size: 20px;
+            font-weight: 600;
+
+        }
+
+        .total span {
+            color: #F97813;
+            font-family: Segoe UI;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .h1-delievery {
+            color: rgba(0, 0, 0, 0.47);
+            font-family: Segoe UI;
+            font-size: 10px;
+            font-weight: 400;
+
+        }
+
+        .h1-delievery span {
+            color: #F97813;
+            font-family: Segoe UI;
+            font-size: 10px;
+            font-weight: 400;
+
+        }
+
+        .cart {
+            color: #000;
+            font-family: Segoe UI;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .cart span {
+            color: rgba(0, 0, 0, 0.38);
+            font-family: Segoe UI;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .in-1 {
+            color: #000;
+
+            font-family: Segoe UI;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    </style>
+
+    <body>
+        <div class="">
+            <button class="btn border-0" type="button" id="filterDropdownButton" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="./assets/img/filter1.png" alt="">
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="filterDropdownButton">
+                <!-- Dropdown header -->
+                <li class="dropdown-header">
+                    <div class="d-flex justify-content-between">
+                        <sh1 class="cart">Your cart <span>(3)</span></sh1>
+                        <button class="btn-close" data-bs-dismiss="dropdown"></button>
+                    </div>
+                </li>
+                <!-- Cards go here -->
+                <li>
+                    <div class="card  p-2">
+                        <div class="card-body">
+                            <div class=" main d-flex align-items-center gap-2">
+                                <div>
+                                    <input class="" type="radio" name="selectedProducts" id="product1">
+                                </div>
+                                <!-- for image and details -->
+                                <div class=" d-flex">
+                                    <img src="./assets/img/Frame 251.png" class="img-fluid me-4 " alt="Card Image"
+                                        style="width: 25%;">
+                                    <div class="div-1">
+                                        <!-- for details items -->
+                                        <h5 class="card-title oopo-mobile">Oppo A16e (4GB , 64GB)e</h5>
+                                        <p class="card-text silver m-0">Color: <span> Silver</span></p>
+                                        <p class="card-text silver ">Shop: <span> Shop name</span></p>
+                                        <div
+                                            class="button mt-4 d-flex align-items-center justify-content-between w-100 ">
+                                            <h4 class="button-e">
+                                                Rs: <span class="price-span">21000</span>
+                                            </h4>
+                                            <div class="bi-1">
+                                                <button class="btn button1"
+                                                    onclick="decrementQuantity(event)">-</button>
+                                                <span class="quantity">1</span>
+                                                <button class="btn" onclick="incrementQuantity(event)">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card  p-2">
+                        <div class="card-body">
+                            <div class=" main d-flex align-items-center gap-2">
+                                <div>
+                                    <input class="" type="radio" name="selectedProducts" id="product1">
+                                </div>
+                                <!-- for image and details -->
+                                <div class=" d-flex">
+                                    <img src="./assets/img/Frame 251.png" class="img-fluid me-4 " alt="Card Image"
+                                        style="width: 25%;">
+                                    <div class="div-1">
+                                        <!-- for details items -->
+                                        <h5 class="card-title oopo-mobile">Oppo A16e (4GB , 64GB)e</h5>
+                                        <p class="card-text silver m-0">Color: <span> Silver</span></p>
+                                        <p class="card-text silver ">Shop: <span> Shop name</span></p>
+                                        <div
+                                            class="button mt-4 d-flex align-items-center justify-content-between w-100 ">
+                                            <h4 class="button-e">
+                                                Rs: <span class="price-span">21000</span>
+                                            </h4>
+                                            <div class="bi-1">
+                                                <button class="btn button1"
+                                                    onclick="decrementQuantity(event)">-</button>
+                                                <span class="quantity">1</span>
+                                                <button class="btn" onclick="incrementQuantity(event)">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card  p-2">
+                        <div class="card-body">
+                            <div class=" main d-flex align-items-center gap-2">
+                                <div>
+                                    <input class="" type="radio" name="selectedProducts" id="product1">
+                                </div>
+                                <!-- for image and details -->
+                                <div class=" d-flex">
+                                    <img src="./assets/img/Frame 251.png" class="img-fluid me-4 " alt="Card Image"
+                                        style="width: 25%;">
+                                    <div class="div-1">
+                                        <!-- for details items -->
+                                        <h5 class="card-title oopo-mobile">Oppo A16e (4GB , 64GB)e</h5>
+                                        <p class="card-text silver m-0">Color: <span> Silver</span></p>
+                                        <p class="card-text silver ">Shop: <span> Shop name</span></p>
+                                        <div
+                                            class="button mt-4 d-flex align-items-center justify-content-between w-100 ">
+                                            <h4 class="button-e">
+                                                Rs: <span class="price-span">21000</span>
+                                            </h4>
+                                            <div class="bi-1">
+                                                <button class="btn button1"
+                                                    onclick="decrementQuantity(event)">-</button>
+                                                <span class="quantity">1</span>
+                                                <button class="btn" onclick="incrementQuantity(event)">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Additional cards go here -->
+                <li class="dropdown-footer footer-lst px-3 mt-5">
+                    <div class="d-flex justify-content-between py-4 align-items-center">
+                        <div>
+                            <input class=" me-2" type="radio" name="selectedProducts" id="product1">
+                            <span class="in-1">ALL</span>
+                        </div>
+                        <div>
+                            <h1 class="h1-delievery">
+                                Delivery: <span class="span2">Rs.0</span>
+                            </h1>
+                            <h1 class="total">Total <span> Rs.0</span></h1>
+                            <p></p>
+                        </div>
+                        <button class="btn checkout">Checkout</button>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            function incrementQuantity(event) {
+                event.stopPropagation(); // Prevent the event from propagating and closing the dropdown
+                const quantityElement = event.currentTarget.parentElement.querySelector('.quantity');
+                let quantity = parseInt(quantityElement.textContent);
+                quantity++;
+                quantityElement.textContent = quantity;
+            }
+
+            function decrementQuantity(event) {
+                event.stopPropagation(); // Prevent the event from propagating and closing the dropdown
+                const quantityElement = event.currentTarget.parentElement.querySelector('.quantity');
+                let quantity = parseInt(quantityElement.textContent);
+                if (quantity > 1) {
+                    quantity--;
+                    quantityElement.textContent = quantity;
+                }
+            }
+        </script>
+    </body>
+
+</html>
